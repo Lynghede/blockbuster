@@ -2,15 +2,15 @@ import Head from "next/head";
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 
-const Genre: React.FC = (props) => {
+const Film: React.FC = (props) => {
   //   console.log(props);
-  const entries = props.genre.entries;
+  const entries = props.film.entries;
   const test = entries[0];
   console.log(test);
   return (
     <>
       <Head>
-        <title>Genre - </title>
+        <title>Film - </title>
       </Head>
       <div>
         {entries.map((entry: any) => (
@@ -43,11 +43,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const res = await fetch(
     `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${id}&byYear=2017&byProgramType=movie`
   );
-  const genre = await res.json();
+  const film = await res.json();
 
   return {
     props: {
-      genre,
+      film,
     },
   };
 };
@@ -65,4 +65,4 @@ export const getStaticProps: GetStaticProps = async (context) => {
 //   return { props: id };
 // };
 
-export default Genre;
+export default Film;

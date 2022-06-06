@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Watchlist from "../components/profile/Watchlist";
 
 const IndexPage: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const IndexPage: React.FC = () => {
       <Head>
         <title>Profile - Watchlist</title>
       </Head>
-      <div>Some component</div>
+      <Watchlist />
     </>
   );
 };
