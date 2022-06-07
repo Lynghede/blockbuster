@@ -5,6 +5,8 @@ import React from "react";
 import { ToastProvider } from "../utlities/toast";
 import Layout from "../ui/Layout";
 
+import "../styles/globals.css";
+
 function getDefaultLayout(page: React.ReactElement) {
   return (
     <>
