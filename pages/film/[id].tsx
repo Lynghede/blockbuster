@@ -38,19 +38,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  const { id } = context.params as IParams;
-  const res = await fetch(
-    `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${id}&byYear=2017&byProgramType=movie`
-  );
-  const film = await res.json();
+// export const getStaticProps: GetStaticProps = async (context) => {
+//   const { id } = context.params as IParams;
+//   const res = await fetch(
+//     `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${id}&byYear=2017&byProgramType=movie`
+//   );
+//   const film = await res.json();
 
-  return {
-    props: {
-      film,
-    },
-  };
-};
+//   return {
+//     props: {
+//       film,
+//     },
+//   };
+// };
 
 // export const getStaticProps: GetStaticProps = async (context) => {
 //   const { id } = context.params as IParams;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Center } from "./EveryLayout";
 
 interface Props {
   children: React.ReactNode;
@@ -24,6 +25,11 @@ const Container = styled.div`
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 var(--s0);
 `;
 
 const Content = styled.div`
