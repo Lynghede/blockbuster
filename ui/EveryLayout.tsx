@@ -39,7 +39,7 @@ export const Stack = styled.div.attrs<Props, Props & { className: string }>({
   justify-content: flex-start;
   text-align: ${(props) => (props.textAlign ? props.textAlign : "")};
   background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : "white"};
+    props.backgroundColor ? props.backgroundColor : "transparent"};
 
   > * {
     margin-top: 0;

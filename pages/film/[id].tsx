@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import styled from "styled-components";
 import { useRouter } from "next/router";
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from "next";
 import { ParsedUrlQuery } from "querystring";
@@ -47,14 +48,11 @@ const Film: React.FC = (props) => {
         <title>Film - </title>
       </Head>
       <Stack>
-        <Cover style={{ position: "relative", opacity: "0.8" }}>
-          <Image src={src} alt="molle" layout="fill" objectFit="cover" />
-          <NewBox
-            style={{
-              backgroundColor: " 	hsl(295, 100%, 12%, 0.8)",
-              position: "absolute",
-            }}
-          >
+        <Stack style={{ position: "relative" }}>
+          <Backdrop url={src}>
+            <BackdropGradient />
+          </Backdrop>
+          <Description>
             <h1>{title}</h1>
             <h2 style={{ color: "var(--color-green)" }}>
               {releaseYear}, {capitalizeFirstLetter(type)} -{" "}
@@ -63,8 +61,8 @@ const Film: React.FC = (props) => {
                 : genres.map((genre: any) => genre + ", ")}{" "}
             </h2>
             <p>{description}</p>
-          </NewBox>
-        </Cover>
+          </Description>
+        </Stack>
         <NewBox
           className="contributing"
           style={{ backgroundColor: "var(--color-purple" }}
@@ -149,3 +147,32 @@ const Film: React.FC = (props) => {
 // };
 
 export default Film;
+
+interface Backdrop {
+  url: string;
+}
+const Backdrop = styled.div<Backdrop>`
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: ${(p) => (p.url ? `url(${p.url})` : "/images/morten.jpeg")};
+  height: 700px;
+  background-position: 50% 50% !important;
+  overflow: hidden;
+`;
+
+const BackdropGradient = styled.div`
+  background-image: linear-gradient(0deg, var(--color-purple) 5%, transparent);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+`;
+
+const Description = styled(NewBox)`
+  left: 0;
+  bottom: 0;
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+`;
