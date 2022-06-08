@@ -84,10 +84,9 @@ const NavItem = styled.div`
   font-size: 1em;
   font-weight: bold;
   color: var(--color-light-green);
-  /* border: 2px solid var(--color-light-green); */
+  border: 2px solid var(--color-light-green);
   border-radius: 1rem;
   padding: 0.2rem 1rem;
-  background: var(--color-light-purple);
 
   transition: transform 0.2s;
   :hover {
