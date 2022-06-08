@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styled from "styled-components";
 import { useRouter } from "next/router";
 /** COMPONENTS */
 import { NewBox, Stack } from "../ui/EveryLayout";
@@ -16,6 +17,7 @@ interface Props {
 }
 
 const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
+  // const [selected, setSelected] = useState()
   const router = useRouter();
   const { id } = router.query;
   const { data, error } = useSWR<any>(
@@ -40,8 +42,10 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
               <h2>({count})</h2>
             </a>
           </Link>
-          <button onClick={(e) => setType("movie")}>Movies</button>
-          <button onClick={(e) => setType("series")}>Series</button>
+          <div>
+            <Button onClick={(e) => setType("movie")}>Movies</Button>
+            <Button onClick={(e) => setType("series")}>Series</Button>
+          </div>
           {!id && (
             <Link href={`/genre/${genre}`} passHref>
               <a>
@@ -57,3 +61,19 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
 };
 
 export default GenreInfo;
+
+const Button = styled.button`
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--color-light-green);
+  border: 1px solid var(--color-light-green);
+  padding: 0.2rem 1rem;
+  background-color: var(--color-purple)
+
+  transition: transform 0.2s;
+  :hover {
+    transform: scale(1.2);
+    color: var(--color-light-purple);
+    background: var(--color-light-green);
+  }
+`;
