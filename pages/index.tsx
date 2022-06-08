@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import { Stack, NewBox } from "../ui/EveryLayout";
 import Carousel from "../components/Carousel";
 import Genres from "../lib/Genres";
+import { useState } from "react";
+import GenreInfo from "../components/GenreInfo";
 
 const Home: NextPage = () => {
+  const [type, setType] = useState("movie");
   return (
     <>
       <Head>
@@ -16,21 +17,9 @@ const Home: NextPage = () => {
       </Head>
       <Stack backgroundColor="var(--color-light-purple)">
         {Genres.map((genre: string) => (
-          <NewBox key={genre}>
-            <Link href={`/genre/${genre.toLowerCase()}`} passHref>
-              <a>
-                <h1>{genre}</h1>
-              </a>
-            </Link>
-            <button>Movies</button>
-            <button>Series</button>
-            <Link href={`/genre/${genre}`} passHref>
-              <a>
-                <button>See all</button>
-              </a>
-            </Link>
-            <Carousel genre={genre} />
-          </NewBox>
+          <GenreInfo genre={genre} type={type} setType={setType} key={genre}>
+            <Carousel genre={genre} type={type} />
+          </GenreInfo>
         ))}
       </Stack>
     </>

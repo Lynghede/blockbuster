@@ -117,7 +117,7 @@ export const SidebarWrapper = styled.div.attrs<
   }
 
   > :last-child {
-    flex-basis: 30ch;
+    flex-basis: 50ch;
     flex-grow: 999;
     min-width: 50%;
     /* max-width: 30ch; */

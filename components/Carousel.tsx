@@ -15,19 +15,21 @@ import fetcher from "../lib/Fetcher";
 import useSWR from "swr";
 interface Props {
   genre: string;
+  type: string;
 }
 
 const Carousel: React.FC<Props> = (props) => {
   const genre = props.genre;
+  const type = props.type;
   const { data, error } = useSWR<any>(
-    `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${genre}&byProgramType=movie`,
+    `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${genre}&byProgramType=${type}`,
     fetcher
   );
 
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading..</div>;
 
-  console.log(`this is ${genre}: `, data.entries);
+  // console.log(`this is ${genre}: `, data.entries);
   const entries = data.entries;
   return (
     <NewBox>

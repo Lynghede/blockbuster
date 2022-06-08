@@ -13,7 +13,6 @@ import capitalizeFirstLetter from "../../lib/CapitalizeFirstLetter";
 /** SWR */
 import fetcher from "../../lib/Fetcher";
 import useSWR from "swr";
-import { release } from "os";
 
 const Film: React.FC = (props) => {
   const router = useRouter();
@@ -40,12 +39,13 @@ const Film: React.FC = (props) => {
     .filter((item: any) => item.plprogram$scheme === "genre")
     .map((item: any) => item.plprogram$title);
   const credits = data.plprogram$credits;
-  console.log("credits", credits);
 
   return (
     <>
       <Head>
-        <title>Film - </title>
+        <title>
+          {capitalizeFirstLetter(type)} - {title}
+        </title>
       </Head>
       <Stack>
         <Stack style={{ position: "relative" }}>
