@@ -1,0 +1,486 @@
+{
+  "$xmlns": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "media": "http://search.yahoo.com/mrss/",
+    "tdc": "http://tdc.dk/fields",
+    "pl1": "http://tdc.dk/metadata",
+    "pl": "http://xml.theplatform.com/data/object",
+    "pla": "http://xml.theplatform.com/data/object/admin",
+    "pllisting": "http://xml.theplatform.com/entertainment/data/Listing",
+    "plprogram": "http://xml.theplatform.com/entertainment/data/Program",
+    "plprogramavailability": "http://xml.theplatform.com/entertainment/data/ProgramAvailability",
+    "plmedia": "http://xml.theplatform.com/media/data/Media",
+    "plfile": "http://xml.theplatform.com/media/data/MediaFile",
+    "plrelease": "http://xml.theplatform.com/media/data/Release"
+  },
+  "id": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/286285352038",
+  "guid": "program_4280009903",
+  "updated": 1654671475000,
+  "title": "The Unbearable Weight of Massive Talent",
+  "description": "",
+  "plprogram$credits": [
+    {
+      "plprogram$creditType": "director",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/tom-gormican",
+      "plprogram$personName": "Tom Gormican"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/nicolascage",
+      "plprogram$personName": "Nicolas Cage"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/pedropascal",
+      "plprogram$personName": "Pedro Pascal"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/sharonhorgan",
+      "plprogram$personName": "Sharon Horgan"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/tiffanyhaddish",
+      "plprogram$personName": "Tiffany Haddish"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/neilpatrickharris",
+      "plprogram$personName": "Neil Patrick Harris"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/joanna-bobin",
+      "plprogram$personName": "Joanna Bobin"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/alessandramastronardi",
+      "plprogram$personName": "Alessandra Mastronardi"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/jacobscipio",
+      "plprogram$personName": "Jacob Scipio"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/lilymosheen",
+      "plprogram$personName": "Lily Mo Sheen"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/carolineboulton",
+      "plprogram$personName": "Caroline Boulton"
+    }
+  ],
+  "plprogram$descriptionLocalized": {
+    "no": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt.",
+    "fi": "Nicolas Cage esittää itseään elokuvassa Suurenmoisen lahjakkuuden sietämätön taakka. Näyttelijäurallaan syöksykierteessä oleva Nicolas Cage hyväksyy agenttinsa tarjoaman miljoonan dollarin sopimuksen ja osallistuu Cagen superfaniksi tunnustautuneen upporikkaan rikollispomo Javin syntymäpäiväjuhliin. Cagen näyttelijätaidot joutuvat yllättäen todelliseen testiin, kun kuvioihin sotkeutuu myös CIA.",
+    "sv": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt.",
+    "en": "In this action-packed comedy, Nicolas Cage plays Nick Cage, channeling his iconic characters as he's caught between a superfan and a CIA agent.",
+    "da": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt."
+  },
+  "plprogram$editorialRating": null,
+  "plprogram$longDescription": null,
+  "plprogram$longDescriptionLocalized": {
+    "no": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt.",
+    "fi": "Nicolas Cage esittää itseään elokuvassa Suurenmoisen lahjakkuuden sietämätön taakka. Näyttelijäurallaan syöksykierteessä oleva Nicolas Cage hyväksyy agenttinsa tarjoaman miljoonan dollarin sopimuksen ja osallistuu Cagen superfaniksi tunnustautuneen upporikkaan rikollispomo Javin syntymäpäiväjuhliin. Cagen näyttelijätaidot joutuvat yllättäen todelliseen testiin, kun kuvioihin sotkeutuu myös CIA.",
+    "sv": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt.",
+    "programtype": "movie",
+    "en": "In this action-packed comedy, Nicolas Cage plays Nick Cage, channeling his iconic characters as he's caught between a superfan and a CIA agent.",
+    "title": "The Unbearable Weight of Massive Talent",
+    "da": "Da den fiktive version af Cage er kreativt uforløst og står på kanten til økonomisk ruin, accepterer han et million-tilbud om at deltage i en farlig superfans fødselsdag. Det tager en uventet drejning, da Cage rekrutteres af en CIA-agent og må bruge sine legendariske evner og kanalisere sine mest ikoniske og elskede karakterer for at blive en ægte actionhelt."
+  },
+  "plprogram$programType": "movie",
+  "plprogram$pubDate": "2022-11-21",
+  "plprogram$ratings": [
+    {
+      "plprogram$scheme": "urn:www.meku.fi",
+      "plprogram$rating": "k-12",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.statensmedierad.se",
+      "plprogram$rating": "11",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.medieraadet.dk",
+      "plprogram$rating": "11",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.medietilsynet.no",
+      "plprogram$rating": "12",
+      "plprogram$subRatings": []
+    }
+  ],
+  "plprogram$runtime": 6420.0,
+  "plprogram$seriesEpisodeNumber": null,
+  "plprogram$seriesId": null,
+  "plprogram$seriesTvSeasons": [],
+  "plprogram$tagIds": [
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/40024616037",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/40024616039",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/49524776275",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/57582120443",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/58333224138",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/58333224143",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/131110440164",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/142813223960",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/142813223961"
+  ],
+  "plprogram$tags": [
+    {
+      "plprogram$scheme": "genre",
+      "plprogram$title": "Action",
+      "plprogram$titleLocalized": {
+        "no": "Action",
+        "fi": "Toiminta",
+        "sv": "Action",
+        "da": "Action"
+      }
+    },
+    {
+      "plprogram$scheme": "genre",
+      "plprogram$title": "Comedy",
+      "plprogram$titleLocalized": {
+        "no": "Komedie",
+        "fi": "Komedia",
+        "sv": "Komedi",
+        "da": "Komedie"
+      }
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Premierefilm",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Blockbuster Hits",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Action - Hits",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Comedy: Hits",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "upcoming",
+      "plprogram$title": "Upcoming_DA",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "upcoming",
+      "plprogram$title": "Upcoming_NO",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "upcoming",
+      "plprogram$title": "Upcoming_FI",
+      "plprogram$titleLocalized": {}
+    }
+  ],
+  "plprogram$thumbnails": {
+    "orig-1080x1920": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-ultrahigh_orig-1654347054125.jpg",
+      "plprogram$width": 1920,
+      "plprogram$height": 1080,
+      "plprogram$title": "4280009903-bd-w-ultrahigh_orig-1654347054125.jpg",
+      "plprogram$assetTypes": ["bd-w-ultrahigh", "orig"]
+    },
+    "orig-2100x1400": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/Unbearable_Weight_Massive_Talent_Poster.jpg",
+      "plprogram$width": 1400,
+      "plprogram$height": 2100,
+      "plprogram$title": "Unbearable_Weight_Massive_Talent_Poster.jpg",
+      "plprogram$assetTypes": ["Poster", "orig"]
+    },
+    "orig-150x267": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-superlow_orig-1654347051945.jpg",
+      "plprogram$width": 267,
+      "plprogram$height": 150,
+      "plprogram$title": "4280009903-bd-w-superlow_orig-1654347051945.jpg",
+      "plprogram$assetTypes": ["bd-w-superlow", "orig"]
+    },
+    "orig-235x418": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-extralow_orig-1654347052177.jpg",
+      "plprogram$width": 418,
+      "plprogram$height": 235,
+      "plprogram$title": "4280009903-bd-w-extralow_orig-1654347052177.jpg",
+      "plprogram$assetTypes": ["bd-w-extralow", "orig"]
+    },
+    "orig-294x522": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-low_orig-1654347052426.jpg",
+      "plprogram$width": 522,
+      "plprogram$height": 294,
+      "plprogram$title": "4280009903-bd-w-low_orig-1654347052426.jpg",
+      "plprogram$assetTypes": ["bd-w-low", "orig"]
+    },
+    "orig-300x533": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-mediumlow_orig-1654347052665.jpg",
+      "plprogram$width": 533,
+      "plprogram$height": 300,
+      "plprogram$title": "4280009903-bd-w-mediumlow_orig-1654347052665.jpg",
+      "plprogram$assetTypes": ["bd-w-mediumlow", "orig"]
+    },
+    "orig-365x649": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-medium_orig-1654347052905.jpg",
+      "plprogram$width": 649,
+      "plprogram$height": 365,
+      "plprogram$title": "4280009903-bd-w-medium_orig-1654347052905.jpg",
+      "plprogram$assetTypes": ["bd-w-medium", "orig"]
+    },
+    "orig-447x792": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-mediumhigh_orig-1654347053126.jpg",
+      "plprogram$width": 792,
+      "plprogram$height": 447,
+      "plprogram$title": "4280009903-bd-w-mediumhigh_orig-1654347053126.jpg",
+      "plprogram$assetTypes": ["bd-w-mediumhigh", "orig"]
+    },
+    "orig-451x801": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-high_orig-1654347053363.jpg",
+      "plprogram$width": 801,
+      "plprogram$height": 451,
+      "plprogram$title": "4280009903-bd-w-high_orig-1654347053363.jpg",
+      "plprogram$assetTypes": ["bd-w-high", "orig"]
+    },
+    "orig-470x836": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-extrahigh_orig-1654347053616.jpg",
+      "plprogram$width": 836,
+      "plprogram$height": 470,
+      "plprogram$title": "4280009903-bd-w-extrahigh_orig-1654347053616.jpg",
+      "plprogram$assetTypes": ["bd-w-extrahigh", "orig"]
+    },
+    "orig-594x408": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-extrahigh_orig-1654347049254.jpg",
+      "plprogram$width": 408,
+      "plprogram$height": 594,
+      "plprogram$title": "4280009903-po-reg-extrahigh_orig-1654347049254.jpg",
+      "plprogram$assetTypes": ["po-reg-extrahigh", "orig"]
+    },
+    "orig-1188x816": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-superhigh_orig-1654347049474.jpg",
+      "plprogram$width": 816,
+      "plprogram$height": 1188,
+      "plprogram$title": "4280009903-po-reg-superhigh_orig-1654347049474.jpg",
+      "plprogram$assetTypes": ["po-reg-superhigh", "orig"]
+    },
+    "orig-93x165": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-superlow_orig-1654347049690.jpg",
+      "plprogram$width": 165,
+      "plprogram$height": 93,
+      "plprogram$title": "4280009903-po-w-superlow_orig-1654347049690.jpg",
+      "plprogram$assetTypes": ["po-w-superlow", "orig"]
+    },
+    "orig-149x264": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-extralow_orig-1654347049903.jpg",
+      "plprogram$width": 264,
+      "plprogram$height": 149,
+      "plprogram$title": "4280009903-po-w-extralow_orig-1654347049903.jpg",
+      "plprogram$assetTypes": ["po-w-extralow", "orig"]
+    },
+    "orig-186x330": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-reglow_orig-1654347050169.jpg",
+      "plprogram$width": 330,
+      "plprogram$height": 186,
+      "plprogram$title": "4280009903-po-w-reglow_orig-1654347050169.jpg",
+      "plprogram$assetTypes": ["po-w-reglow", "orig"]
+    },
+    "orig-278x495": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-medium_orig-1654347050365.jpg",
+      "plprogram$width": 495,
+      "plprogram$height": 278,
+      "plprogram$title": "4280009903-po-w-medium_orig-1654347050365.jpg",
+      "plprogram$assetTypes": ["po-w-medium", "orig"]
+    },
+    "orig-296x527": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-mediumhigh_orig-1654347050570.jpg",
+      "plprogram$width": 527,
+      "plprogram$height": 296,
+      "plprogram$title": "4280009903-po-w-mediumhigh_orig-1654347050570.jpg",
+      "plprogram$assetTypes": ["po-w-mediumhigh", "orig"]
+    },
+    "orig-391x695": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-high_orig-1654347050779.jpg",
+      "plprogram$width": 695,
+      "plprogram$height": 391,
+      "plprogram$title": "4280009903-po-w-high_orig-1654347050779.jpg",
+      "plprogram$assetTypes": ["po-w-high", "orig"]
+    },
+    "orig-446x792": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-extrahigh_orig-1654347050993.jpg",
+      "plprogram$width": 792,
+      "plprogram$height": 446,
+      "plprogram$title": "4280009903-po-w-extrahigh_orig-1654347050993.jpg",
+      "plprogram$assetTypes": ["po-w-extrahigh", "orig"]
+    },
+    "orig-669x1188": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-w-superhigh_orig.jpg",
+      "plprogram$width": 1188,
+      "plprogram$height": 669,
+      "plprogram$title": "4280009903-po-w-superhigh_orig.jpg",
+      "plprogram$assetTypes": ["po-w-superhigh", "orig"]
+    },
+    "orig-212x414": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-sew-low_orig-1654347051460.jpg",
+      "plprogram$width": 414,
+      "plprogram$height": 212,
+      "plprogram$title": "4280009903-bd-sew-low_orig-1654347051460.jpg",
+      "plprogram$assetTypes": ["bd-sew-low", "orig"]
+    },
+    "orig-424x828": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-sew-medium_orig-1654347051734.jpg",
+      "plprogram$width": 828,
+      "plprogram$height": 424,
+      "plprogram$title": "4280009903-bd-sew-medium_orig-1654347051734.jpg",
+      "plprogram$assetTypes": ["bd-sew-medium", "orig"]
+    },
+    "orig-182x125": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-superlow_orig-1654347047801.jpg",
+      "plprogram$width": 125,
+      "plprogram$height": 182,
+      "plprogram$title": "4280009903-po-reg-superlow_orig-1654347047801.jpg",
+      "plprogram$assetTypes": ["po-reg-superlow", "orig"]
+    },
+    "orig-198x136": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-extralow_orig-1654347047996.jpg",
+      "plprogram$width": 136,
+      "plprogram$height": 198,
+      "plprogram$title": "4280009903-po-reg-extralow_orig-1654347047996.jpg",
+      "plprogram$assetTypes": ["po-reg-extralow", "orig"]
+    },
+    "orig-295x203": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-low_orig-1654347048227.jpg",
+      "plprogram$width": 203,
+      "plprogram$height": 295,
+      "plprogram$title": "4280009903-po-reg-low_orig-1654347048227.jpg",
+      "plprogram$assetTypes": ["po-reg-low", "orig"]
+    },
+    "orig-364x250": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-medium_orig-1654347048430.jpg",
+      "plprogram$width": 250,
+      "plprogram$height": 364,
+      "plprogram$title": "4280009903-po-reg-medium_orig-1654347048430.jpg",
+      "plprogram$assetTypes": ["po-reg-medium", "orig"]
+    },
+    "orig-365x251": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-appletv_orig-1654347048619.jpg",
+      "plprogram$width": 251,
+      "plprogram$height": 365,
+      "plprogram$title": "4280009903-po-reg-appletv_orig-1654347048619.jpg",
+      "plprogram$assetTypes": ["po-reg-appletv", "orig"]
+    },
+    "orig-396x272": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-mediumhigh_orig-1654347048822.jpg",
+      "plprogram$width": 272,
+      "plprogram$height": 396,
+      "plprogram$title": "4280009903-po-reg-mediumhigh_orig-1654347048822.jpg",
+      "plprogram$assetTypes": ["orig", "po-reg-mediumhigh"]
+    },
+    "orig-546x375": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-po-reg-high_orig-1654347049028.jpg",
+      "plprogram$width": 375,
+      "plprogram$height": 546,
+      "plprogram$title": "4280009903-po-reg-high_orig-1654347049028.jpg",
+      "plprogram$assetTypes": ["po-reg-high", "orig"]
+    },
+    "orig-720x1280": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-w-superhigh_orig-1654347053862.jpg",
+      "plprogram$width": 1280,
+      "plprogram$height": 720,
+      "plprogram$title": "4280009903-bd-w-superhigh_orig-1654347053862.jpg",
+      "plprogram$assetTypes": ["bd-w-superhigh", "orig"]
+    },
+    "orig-636x1242": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-ew-high_orig-1654347054365.jpg",
+      "plprogram$width": 1242,
+      "plprogram$height": 636,
+      "plprogram$title": "4280009903-bd-ew-high_orig-1654347054365.jpg",
+      "plprogram$assetTypes": ["bd-ew-high", "orig"]
+    },
+    "orig-262x1024": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-sw-medium_orig-1654347054636.jpg",
+      "plprogram$width": 1024,
+      "plprogram$height": 262,
+      "plprogram$title": "4280009903-bd-sw-medium_orig-1654347054636.jpg",
+      "plprogram$assetTypes": ["bd-sw-medium", "orig"]
+    },
+    "orig-324x1280": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/203/696/4280009903-bd-sw-high_orig-1654347054887.jpg",
+      "plprogram$width": 1280,
+      "plprogram$height": 324,
+      "plprogram$title": "4280009903-bd-sw-high_orig-1654347054887.jpg",
+      "plprogram$assetTypes": ["bd-sw-high", "orig"]
+    }
+  },
+  "plprogram$titleLocalized": {
+    "no": "The Unbearable Weight of Massive Talent",
+    "fi": "The Unbearable Weight of Massive Talent",
+    "sv": "The Unbearable Weight of Massive Talent",
+    "en": "The Unbearable Weight of Massive Talent",
+    "da": "The Unbearable Weight of Massive Talent"
+  },
+  "plprogram$tvSeasonEpisodeNumber": null,
+  "plprogram$tvSeasonId": null,
+  "plprogram$tvSeasonNumber": null,
+  "plprogram$year": 2022,
+  "plprogramavailability$availableTvSeasonIds": [],
+  "plprogramavailability$media": [
+    {
+      "media$content": [
+        {
+          "plfile$bitrate": 2613707,
+          "plfile$duration": 163.76,
+          "plfile$format": "MPEG4",
+          "plfile$height": 428,
+          "plfile$width": 1024,
+          "plfile$assetTypes": ["Trailer", "public"],
+          "plfile$isProtected": false,
+          "plfile$releases": [
+            {
+              "plrelease$pid": "GX6mRINP9WE6",
+              "plrelease$url": "https://link.theplatform.eu/s/jGxigC/GX6mRINP9WE6"
+            }
+          ],
+          "plfile$protectionScheme": ""
+        }
+      ],
+      "plmedia$publicUrl": "https://link.theplatform.eu/s/jGxigC/media/JlD_sb42DQNv"
+    }
+  ],
+  "tdc$estProductAvailability": null,
+  "tdc$estProductAvailabilityLocalized": {
+    "da": "upcoming",
+    "fi": "upcoming",
+    "no": "upcoming",
+    "sv": "upcoming"
+  },
+  "tdc$imdbId": "tt11291274",
+  "tdc$isMetadataAddedByHarverster": false,
+  "tdc$sortDate": "2022-07-07",
+  "tdc$tvodProductAvailability": null,
+  "tdc$tvodProductAvailabilityLocalized": {
+    "da": "upcoming",
+    "fi": "upcoming",
+    "no": "upcoming",
+    "sv": "upcoming"
+  },
+  "tdc$urlSlug": null,
+  "tdc$urlSlugLocalized": {
+    "da": "the-unbearable-weight-of-massive-talent",
+    "en": "the-unbearable-weight-of-massive-talent",
+    "fi": "the-unbearable-weight-of-massive-talent",
+    "no": "the-unbearable-weight-of-massive-talent",
+    "sv": "the-unbearable-weight-of-massive-talent"
+  },
+  "tdc$youtubeTrailer": ""
+}

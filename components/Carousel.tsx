@@ -20,7 +20,7 @@ interface Props {
 const Carousel: React.FC<Props> = (props) => {
   const genre = props.genre;
   const { data, error } = useSWR<any>(
-    `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${genre}&byYear=2017&byProgramType=movie`,
+    `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${genre}&byProgramType=movie`,
     fetcher
   );
 

@@ -251,11 +251,12 @@ export const Frame = styled.div<FrameProps>`
 
 interface GridProps {
   minimum: string | "20ch";
+  gap?: string;
 }
 
 export const Grid = styled.div<GridProps>`
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: ${(p) => (p.gap ? p.gap : "1rem")};
   @supports (width: min(${(p) => p.minimum}, 100%)) {
     grid-template-columns: repeat(
       auto-fit,

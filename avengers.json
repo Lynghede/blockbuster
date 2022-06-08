@@ -1,0 +1,640 @@
+{
+  "$xmlns": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "media": "http://search.yahoo.com/mrss/",
+    "tdc": "http://tdc.dk/fields",
+    "pl1": "http://tdc.dk/metadata",
+    "pl": "http://xml.theplatform.com/data/object",
+    "pla": "http://xml.theplatform.com/data/object/admin",
+    "pllisting": "http://xml.theplatform.com/entertainment/data/Listing",
+    "plprogram": "http://xml.theplatform.com/entertainment/data/Program",
+    "plprogramavailability": "http://xml.theplatform.com/entertainment/data/ProgramAvailability",
+    "plmedia": "http://xml.theplatform.com/media/data/Media",
+    "plfile": "http://xml.theplatform.com/media/data/MediaFile",
+    "plrelease": "http://xml.theplatform.com/media/data/Release"
+  },
+  "id": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/106608168011",
+  "guid": "program_4280003001",
+  "updated": 1648545405000,
+  "title": "Avengers: Endgame",
+  "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+  "plprogram$credits": [
+    {
+      "plprogram$creditType": "director",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/anthonyrusso",
+      "plprogram$personName": "Anthony Russo"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/robertdowneyjr",
+      "plprogram$personName": "Robert Downey Jr."
+    },
+    {
+      "plprogram$creditType": "director",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/joerusso",
+      "plprogram$personName": "Joe Russo"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/chrisevans",
+      "plprogram$personName": "Chris Evans"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/markruffalo",
+      "plprogram$personName": "Mark Ruffalo"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/chrishemsworth",
+      "plprogram$personName": "Chris Hemsworth"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/scarlettjohansson",
+      "plprogram$personName": "Scarlett Johansson"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/jeremyrenner",
+      "plprogram$personName": "Jeremy Renner"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/doncheadle",
+      "plprogram$personName": "Don Cheadle"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/paulrudd",
+      "plprogram$personName": "Paul Rudd"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/benedictcumberbatch",
+      "plprogram$personName": "Benedict Cumberbatch"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/chadwickboseman",
+      "plprogram$personName": "Chadwick Boseman"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/paulrudd",
+      "plprogram$personName": "Paul Rudd"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/doncheadle",
+      "plprogram$personName": "Don Cheadle"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/markruffalo",
+      "plprogram$personName": "Mark Ruffalo"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/scarlettjohansson",
+      "plprogram$personName": "Scarlett Johansson"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/robertdowneyjr",
+      "plprogram$personName": "Robert Downey Jr."
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/jeremyrenner",
+      "plprogram$personName": "Jeremy Renner"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/zoesaldana",
+      "plprogram$personName": "Zoe Saldana"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/karengillan",
+      "plprogram$personName": "Karen Gillan"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/brielarson",
+      "plprogram$personName": "Brie Larson"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/chrisevans",
+      "plprogram$personName": "Chris Evans"
+    },
+    {
+      "plprogram$creditType": "director",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/joerusso",
+      "plprogram$personName": "Joe Russo"
+    },
+    {
+      "plprogram$creditType": "director",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/anthonyrusso",
+      "plprogram$personName": "Anthony Russo"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/evangelinelilly",
+      "plprogram$personName": "Evangeline Lilly"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/tomholland",
+      "plprogram$personName": "Tom Holland"
+    },
+    {
+      "plprogram$creditType": "actor",
+      "plprogram$personId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Person/guid/2693468579/chadwickboseman",
+      "plprogram$personName": "Chadwick Boseman"
+    }
+  ],
+  "plprogram$descriptionLocalized": {
+    "no": "Det fjerde avsnittet i Avengers-serien er en fascinerende kulminasjon av 22 tilknyttede filmer og høydepunktet i en storslått reise. Jordens helter forstår til slutt hvor skjør vår virkelighet er – og hva som må ofres for å opprettholde den – i en historie om vennskap, samarbeid og evnen til å sette forskjeller til side for å overvinne en umulig hindring.",
+    "fi": "Kun Thanos onnistui saamaan kaikki Ikuisuuskivet itselleen, kului vain hetki, kun hän jo  pyyhkäisi pois puolet kaikista universumin asukkaista, mukaan lukien osan Avengers-ryhmästä. Jäljelle jääneiden supersankareiden täytyy nyt nousta heidän kaatuneiden ystäviensä tuhkista, ja kaikkien odotusten vastaisesti, taistella Thanoksen kaiken tuhoavia voimia vastaan. Taistelu universumin kohtalosta on alkanut.",
+    "sv": "Nu kan årets största actionäventyr och filmhistoriens mest inkomstbringande film, ’Avengers: Endgame’, äntligen köpas och hyras! I föregångaren ’Avengers: Infinity War’ lyckades superskurken Thanos samla åt sig alla oändlighetsstenar och med en knäpp med fingrarna utrota hälften av universumets befolkning, inklusive en stor del av medlemmarna i Avengers. De kvarblivna, bland dem favoriterna Thor, Hulken, Captain America, Black Widow och Iron Man, måste nu resa sig ur dammet efter sina förlorade kamrater och mot alla odds stå ansikte mot ansikte med Thanos och hans förödande krafter. Den sista kampen om universumets öde är igång. Upplev denna spännande, underhållande och på alla sätt episka superhjältefilm, ’Avengers: Endgame,’ i din hemmabiograf nu!",
+    "en": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+    "da": "I forgængeren Avengers: Infinity War lykkedes det superskurken Thanos at samle alle evighedsstenene og med et enkelt knips udrydde halvdelen af universets beboere, inklusiv en stor del af Avengers-holdet. De resterende Marvel-helte, bl.a. fanfavoritterne Thor, Hulk, Captain America, Black Widow og Iron Man, må nu rejse sig af asken fra deres faldne kammerater og, imod alle odds, stå skulder ved skulder mod Thanos' altødelæggende kræfter. Slutspillet om universets skæbne er i gang. Oplev det hæsblæsende, top-underholdende og på alle måder episke superheltebrag 'Avengers: Endgame' i hjemmebiografen nu!"
+  },
+  "plprogram$editorialRating": null,
+  "plprogram$longDescription": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+  "plprogram$longDescriptionLocalized": {
+    "no": "Det fjerde avsnittet i Avengers-serien er en fascinerende kulminasjon av 22 tilknyttede filmer og høydepunktet i en storslått reise. Jordens helter forstår til slutt hvor skjør vår virkelighet er – og hva som må ofres for å opprettholde den – i en historie om vennskap, samarbeid og evnen til å sette forskjeller til side for å overvinne en umulig hindring.",
+    "fi": "Kun Thanos onnistui saamaan kaikki Ikuisuuskivet itselleen, kului vain hetki, kun hän jo  pyyhkäisi pois puolet kaikista universumin asukkaista, mukaan lukien osan Avengers-ryhmästä. Jäljelle jääneiden supersankareiden täytyy nyt nousta heidän kaatuneiden ystäviensä tuhkista, ja kaikkien odotusten vastaisesti, taistella Thanoksen kaiken tuhoavia voimia vastaan. Taistelu universumin kohtalosta on alkanut.",
+    "sv": "Nu kan årets största actionäventyr och filmhistoriens mest inkomstbringande film, ’Avengers – Endgame’, äntligen köpas och hyras! I föregångaren ’Avengers: Infinity War’ lyckades superskurken Thanos samla åt sig alla oändlighetsstenar och med en knäpp med fingrarna utrota hälften av universumets befolkning, inklusive en stor del av medlemmarna i Avengers. De kvarblivna, bland dem favoriterna Thor, Hulken, Captain America, Black Widow och Iron Man, måste nu resa sig ur dammet efter sina förlorade kamrater och mot alla odds stå ansikte mot ansikte med Thanos och hans förödande krafter. Den sista kampen om universumets öde är igång. Upplev denna spännande, underhållande och på alla sätt episka superhjältefilm, ’Avengers – Endgame,’ i din hemmabiograf nu!",
+    "en": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+    "da": "I forgængeren Avengers: Infinity War lykkedes det superskurken Thanos at samle alle evighedsstenene og med et enkelt knips udrydde halvdelen af universets beboere, inklusiv en stor del af Avengers-holdet. De resterende Marvel-helte, bl.a. fanfavoritterne Thor, Hulk, Captain America, Black Widow og Iron Man, må nu rejse sig af asken fra deres faldne kammerater og, imod alle odds, stå skulder ved skulder mod Thanos' altødelæggende kræfter. Slutspillet om universets skæbne er i gang. Oplev det hæsblæsende, top-underholdende og på alle måder episke superheltebrag 'Avengers: Endgame' i hjemmebiografen nu!"
+  },
+  "plprogram$programType": "movie",
+  "plprogram$pubDate": null,
+  "plprogram$ratings": [
+    {
+      "plprogram$scheme": "urn:www.meku.fi",
+      "plprogram$rating": "k-12",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.statensmedierad.se",
+      "plprogram$rating": "11",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.medieraadet.dk",
+      "plprogram$rating": "11",
+      "plprogram$subRatings": []
+    },
+    {
+      "plprogram$scheme": "urn:www.medietilsynet.no",
+      "plprogram$rating": "12",
+      "plprogram$subRatings": []
+    }
+  ],
+  "plprogram$runtime": 10500.0,
+  "plprogram$seriesEpisodeNumber": null,
+  "plprogram$seriesId": null,
+  "plprogram$seriesTvSeasons": [],
+  "plprogram$tagIds": [
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/40024616037",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/49423400310",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/49825832166",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/57387048173",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/58333224138",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/58333736098",
+    "http://data.entertainment.tv.theplatform.eu/entertainment/data/Tag/110418984296"
+  ],
+  "plprogram$tags": [
+    {
+      "plprogram$scheme": "genre",
+      "plprogram$title": "Action",
+      "plprogram$titleLocalized": {
+        "no": "Action",
+        "fi": "Toiminta",
+        "sv": "Action",
+        "da": "Action"
+      }
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Editors favourites",
+      "plprogram$titleLocalized": {
+        "no": "Redaktionens Favoritter",
+        "fi": "Redaktionens Favoritter",
+        "sv": "Redaktionens Favoritter",
+        "da": "Redaktionens Favoritter"
+      }
+    },
+    {
+      "plprogram$scheme": "brand",
+      "plprogram$title": "Marvel Cinematic Universe",
+      "plprogram$titleLocalized": {
+        "no": "Doctor Strange & co.",
+        "fi": "Doctor Strange & co.",
+        "sv": "Doctor Strange & co.",
+        "da": "Doctor Strange & co."
+      }
+    },
+    {
+      "plprogram$scheme": "franchise",
+      "plprogram$title": "Avengers",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Action - Hits",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "editorial",
+      "plprogram$title": "Science Fiction: Hits",
+      "plprogram$titleLocalized": {}
+    },
+    {
+      "plprogram$scheme": "accessibility",
+      "plprogram$title": "filmochskola",
+      "plprogram$titleLocalized": {}
+    }
+  ],
+  "plprogram$thumbnails": {
+    "orig-3000x2000": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/Avengers_Endgame_Poster.jpg",
+      "plprogram$width": 2000,
+      "plprogram$height": 3000,
+      "plprogram$title": "Avengers_Endgame_Poster.jpg",
+      "plprogram$assetTypes": ["Poster", "orig"]
+    },
+    "orig-2160x3840": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/Avengers_Endgame_Backdrop.jpg",
+      "plprogram$width": 3840,
+      "plprogram$height": 2160,
+      "plprogram$title": "Avengers_Endgame_Backdrop.jpg",
+      "plprogram$assetTypes": ["Backdrop", "orig"]
+    },
+    "orig-391x695": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-high_orig-1564646699679.jpg",
+      "plprogram$width": 695,
+      "plprogram$height": 391,
+      "plprogram$title": "DI-98436324366140000_po-w-high_orig-1564646699679.jpg",
+      "plprogram$assetTypes": ["po-w-high", "orig"]
+    },
+    "orig-446x792": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-extrahigh_orig-1564646699974.jpg",
+      "plprogram$width": 792,
+      "plprogram$height": 446,
+      "plprogram$title": "DI-98436324366140000_po-w-extrahigh_orig-1564646699974.jpg",
+      "plprogram$assetTypes": ["po-w-extrahigh", "orig"]
+    },
+    "orig-669x1188": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-superhigh_orig.jpg",
+      "plprogram$width": 1188,
+      "plprogram$height": 669,
+      "plprogram$title": "DI-98436324366140000_po-w-superhigh_orig.jpg",
+      "plprogram$assetTypes": ["po-w-superhigh", "orig"]
+    },
+    "orig-212x414": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sew-low_orig.jpg",
+      "plprogram$width": 414,
+      "plprogram$height": 212,
+      "plprogram$title": "DI-98436324366140000_bd-sew-low_orig.jpg",
+      "plprogram$assetTypes": ["bd-sew-low", "orig"]
+    },
+    "orig-424x828": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sew-medium_orig.jpg",
+      "plprogram$width": 828,
+      "plprogram$height": 424,
+      "plprogram$title": "DI-98436324366140000_bd-sew-medium_orig.jpg",
+      "plprogram$assetTypes": ["bd-sew-medium", "orig"]
+    },
+    "orig-150x267": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-superlow_orig_1566806831820.jpg",
+      "plprogram$width": 267,
+      "plprogram$height": 150,
+      "plprogram$title": "DI-98436324366140000_bd-w-superlow_orig_1566806831820.jpg",
+      "plprogram$assetTypes": ["bd-w-superlow", "orig"]
+    },
+    "orig-235x418": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-extralow_orig_1566806832888.jpg",
+      "plprogram$width": 418,
+      "plprogram$height": 235,
+      "plprogram$title": "DI-98436324366140000_bd-w-extralow_orig_1566806832888.jpg",
+      "plprogram$assetTypes": ["bd-w-extralow", "orig"]
+    },
+    "orig-294x522": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-low_orig_1566806833527.jpg",
+      "plprogram$width": 522,
+      "plprogram$height": 294,
+      "plprogram$title": "DI-98436324366140000_bd-w-low_orig_1566806833527.jpg",
+      "plprogram$assetTypes": ["bd-w-low", "orig"]
+    },
+    "orig-300x533": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-mediumlow_orig_1566806834261.jpg",
+      "plprogram$width": 533,
+      "plprogram$height": 300,
+      "plprogram$title": "DI-98436324366140000_bd-w-mediumlow_orig_1566806834261.jpg",
+      "plprogram$assetTypes": ["bd-w-mediumlow", "orig"]
+    },
+    "orig-365x649": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-medium_orig_1566806834910.jpg",
+      "plprogram$width": 649,
+      "plprogram$height": 365,
+      "plprogram$title": "DI-98436324366140000_bd-w-medium_orig_1566806834910.jpg",
+      "plprogram$assetTypes": ["bd-w-medium", "orig"]
+    },
+    "orig-447x792": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-mediumhigh_orig_1566806835479.jpg",
+      "plprogram$width": 792,
+      "plprogram$height": 447,
+      "plprogram$title": "DI-98436324366140000_bd-w-mediumhigh_orig_1566806835479.jpg",
+      "plprogram$assetTypes": ["bd-w-mediumhigh", "orig"]
+    },
+    "orig-451x801": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-high_orig_1566806836090.jpg",
+      "plprogram$width": 801,
+      "plprogram$height": 451,
+      "plprogram$title": "DI-98436324366140000_bd-w-high_orig_1566806836090.jpg",
+      "plprogram$assetTypes": ["bd-w-high", "orig"]
+    },
+    "orig-470x836": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-extrahigh_orig_1566806836674.jpg",
+      "plprogram$width": 836,
+      "plprogram$height": 470,
+      "plprogram$title": "DI-98436324366140000_bd-w-extrahigh_orig_1566806836674.jpg",
+      "plprogram$assetTypes": ["bd-w-extrahigh", "orig"]
+    },
+    "orig-720x1280": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-w-superhigh_orig.jpg",
+      "plprogram$width": 1280,
+      "plprogram$height": 720,
+      "plprogram$title": "DI-98436324366140000_bd-w-superhigh_orig.jpg",
+      "plprogram$assetTypes": ["bd-w-superhigh", "orig"]
+    },
+    "orig-1080x1920": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/avengers-endgame_appfeatured.jpg",
+      "plprogram$width": 1920,
+      "plprogram$height": 1080,
+      "plprogram$title": "avengers-endgame_appfeatured.jpg",
+      "plprogram$assetTypes": ["orig", "Featured"]
+    },
+    "orig-636x1242": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-ew-high_orig.jpg",
+      "plprogram$width": 1242,
+      "plprogram$height": 636,
+      "plprogram$title": "DI-98436324366140000_bd-ew-high_orig.jpg",
+      "plprogram$assetTypes": ["bd-ew-high", "orig"]
+    },
+    "orig-262x1024": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sw-medium_orig.jpg",
+      "plprogram$width": 1024,
+      "plprogram$height": 262,
+      "plprogram$title": "DI-98436324366140000_bd-sw-medium_orig.jpg",
+      "plprogram$assetTypes": ["bd-sw-medium", "orig"]
+    },
+    "orig-324x1280": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sw-high_orig.jpg",
+      "plprogram$width": 1280,
+      "plprogram$height": 324,
+      "plprogram$title": "DI-98436324366140000_bd-sw-high_orig.jpg",
+      "plprogram$assetTypes": ["bd-sw-high", "orig"]
+    },
+    "orig-524x2048": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sw-extrahigh_orig.jpg",
+      "plprogram$width": 2048,
+      "plprogram$height": 524,
+      "plprogram$title": "DI-98436324366140000_bd-sw-extrahigh_orig.jpg",
+      "plprogram$assetTypes": ["bd-sw-extrahigh", "orig"]
+    },
+    "orig-699x2732": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_bd-sw-superhigh_orig.jpg",
+      "plprogram$width": 2732,
+      "plprogram$height": 699,
+      "plprogram$title": "DI-98436324366140000_bd-sw-superhigh_orig.jpg",
+      "plprogram$assetTypes": ["bd-sw-superhigh", "orig"]
+    },
+    "orig-182x125": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-superlow_orig-1564646695219.jpg",
+      "plprogram$width": 125,
+      "plprogram$height": 182,
+      "plprogram$title": "DI-98436324366140000_po-reg-superlow_orig-1564646695219.jpg",
+      "plprogram$assetTypes": ["po-reg-superlow", "orig"]
+    },
+    "orig-198x136": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-extralow_orig-1564646695534.jpg",
+      "plprogram$width": 136,
+      "plprogram$height": 198,
+      "plprogram$title": "DI-98436324366140000_po-reg-extralow_orig-1564646695534.jpg",
+      "plprogram$assetTypes": ["po-reg-extralow", "orig"]
+    },
+    "orig-295x203": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-low_orig-1564646695806.jpg",
+      "plprogram$width": 203,
+      "plprogram$height": 295,
+      "plprogram$title": "DI-98436324366140000_po-reg-low_orig-1564646695806.jpg",
+      "plprogram$assetTypes": ["po-reg-low", "orig"]
+    },
+    "orig-364x250": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-medium_orig-1564646696134.jpg",
+      "plprogram$width": 250,
+      "plprogram$height": 364,
+      "plprogram$title": "DI-98436324366140000_po-reg-medium_orig-1564646696134.jpg",
+      "plprogram$assetTypes": ["po-reg-medium", "orig"]
+    },
+    "orig-365x251": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-appletv_orig-1564646696431.jpg",
+      "plprogram$width": 251,
+      "plprogram$height": 365,
+      "plprogram$title": "DI-98436324366140000_po-reg-appletv_orig-1564646696431.jpg",
+      "plprogram$assetTypes": ["po-reg-appletv", "orig"]
+    },
+    "orig-396x272": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-mediumhigh_orig-1564646696733.jpg",
+      "plprogram$width": 272,
+      "plprogram$height": 396,
+      "plprogram$title": "DI-98436324366140000_po-reg-mediumhigh_orig-1564646696733.jpg",
+      "plprogram$assetTypes": ["orig", "po-reg-mediumhigh"]
+    },
+    "orig-546x375": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-high_orig-1564646697028.jpg",
+      "plprogram$width": 375,
+      "plprogram$height": 546,
+      "plprogram$title": "DI-98436324366140000_po-reg-high_orig-1564646697028.jpg",
+      "plprogram$assetTypes": ["po-reg-high", "orig"]
+    },
+    "orig-594x408": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-extrahigh_orig-1564646697359.jpg",
+      "plprogram$width": 408,
+      "plprogram$height": 594,
+      "plprogram$title": "DI-98436324366140000_po-reg-extrahigh_orig-1564646697359.jpg",
+      "plprogram$assetTypes": ["po-reg-extrahigh", "orig"]
+    },
+    "orig-1188x816": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-reg-superhigh_orig-1564646697654.jpg",
+      "plprogram$width": 816,
+      "plprogram$height": 1188,
+      "plprogram$title": "DI-98436324366140000_po-reg-superhigh_orig-1564646697654.jpg",
+      "plprogram$assetTypes": ["po-reg-superhigh", "orig"]
+    },
+    "orig-93x165": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-superlow_orig-1564646697988.jpg",
+      "plprogram$width": 165,
+      "plprogram$height": 93,
+      "plprogram$title": "DI-98436324366140000_po-w-superlow_orig-1564646697988.jpg",
+      "plprogram$assetTypes": ["po-w-superlow", "orig"]
+    },
+    "orig-149x264": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-extralow_orig-1564646698325.jpg",
+      "plprogram$width": 264,
+      "plprogram$height": 149,
+      "plprogram$title": "DI-98436324366140000_po-w-extralow_orig-1564646698325.jpg",
+      "plprogram$assetTypes": ["po-w-extralow", "orig"]
+    },
+    "orig-186x330": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-reglow_orig-1564646698678.jpg",
+      "plprogram$width": 330,
+      "plprogram$height": 186,
+      "plprogram$title": "DI-98436324366140000_po-w-reglow_orig-1564646698678.jpg",
+      "plprogram$assetTypes": ["po-w-reglow", "orig"]
+    },
+    "orig-278x495": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-medium_orig-1564646698987.jpg",
+      "plprogram$width": 495,
+      "plprogram$height": 278,
+      "plprogram$title": "DI-98436324366140000_po-w-medium_orig-1564646698987.jpg",
+      "plprogram$assetTypes": ["po-w-medium", "orig"]
+    },
+    "orig-296x527": {
+      "plprogram$url": "https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/973/160/DI-98436324366140000_po-w-mediumhigh_orig-1564646699360.jpg",
+      "plprogram$width": 527,
+      "plprogram$height": 296,
+      "plprogram$title": "DI-98436324366140000_po-w-mediumhigh_orig-1564646699360.jpg",
+      "plprogram$assetTypes": ["po-w-mediumhigh", "orig"]
+    }
+  },
+  "plprogram$titleLocalized": {
+    "no": "Avengers: Endgame",
+    "fi": "Avengers: Endgame",
+    "sv": "Avengers: Endgame",
+    "en": "Avengers: Endgame",
+    "da": "Avengers: Endgame"
+  },
+  "plprogram$tvSeasonEpisodeNumber": null,
+  "plprogram$tvSeasonId": null,
+  "plprogram$tvSeasonNumber": null,
+  "plprogram$year": 2019,
+  "plprogramavailability$availableTvSeasonIds": [],
+  "plprogramavailability$media": [
+    {
+      "media$content": [
+        {
+          "plfile$bitrate": 0,
+          "plfile$duration": 10493.0,
+          "plfile$format": "ISM",
+          "plfile$height": 1080,
+          "plfile$width": 1920,
+          "plfile$assetTypes": ["orig", "jit", "public"],
+          "plfile$isProtected": true,
+          "plfile$releases": [
+            {
+              "plrelease$pid": "l_H2neGWcS7H",
+              "plrelease$url": "https://link.theplatform.eu/s/jGxigC/l_H2neGWcS7H"
+            }
+          ],
+          "plfile$protectionScheme": "playReady"
+        },
+        {
+          "plfile$bitrate": 0,
+          "plfile$duration": 10493.0,
+          "plfile$format": "M3U",
+          "plfile$height": 1080,
+          "plfile$width": 1920,
+          "plfile$assetTypes": ["orig", "jit", "public"],
+          "plfile$isProtected": true,
+          "plfile$releases": [
+            {
+              "plrelease$pid": "XenQWHDZ1zJ0",
+              "plrelease$url": "https://link.theplatform.eu/s/jGxigC/XenQWHDZ1zJ0"
+            }
+          ],
+          "plfile$protectionScheme": "fairplay"
+        },
+        {
+          "plfile$bitrate": 0,
+          "plfile$duration": 10493.0,
+          "plfile$format": "MPEG-DASH",
+          "plfile$height": 1080,
+          "plfile$width": 1920,
+          "plfile$assetTypes": ["orig", "jit", "public"],
+          "plfile$isProtected": true,
+          "plfile$releases": [
+            {
+              "plrelease$pid": "3iP39q96Db4x",
+              "plrelease$url": "https://link.theplatform.eu/s/jGxigC/3iP39q96Db4x"
+            }
+          ],
+          "plfile$protectionScheme": "widevine"
+        }
+      ],
+      "plmedia$publicUrl": "https://link.theplatform.eu/s/jGxigC/media/fd4I1c_NTDuW"
+    },
+    {
+      "media$content": [
+        {
+          "plfile$bitrate": 2301478,
+          "plfile$duration": 141.6,
+          "plfile$format": "MPEG4",
+          "plfile$height": 576,
+          "plfile$width": 1024,
+          "plfile$assetTypes": ["Trailer", "public"],
+          "plfile$isProtected": false,
+          "plfile$releases": [
+            {
+              "plrelease$pid": "WTeTaX9KFdSm",
+              "plrelease$url": "https://link.theplatform.eu/s/jGxigC/WTeTaX9KFdSm"
+            }
+          ],
+          "plfile$protectionScheme": ""
+        }
+      ],
+      "plmedia$publicUrl": "https://link.theplatform.eu/s/jGxigC/media/txdkA_1FiPEI"
+    }
+  ],
+  "tdc$estProductAvailability": null,
+  "tdc$estProductAvailabilityLocalized": {
+    "da": "available",
+    "fi": "available",
+    "no": "available",
+    "sv": "available"
+  },
+  "tdc$estProductAvailabilityUpdated": 1569773160000,
+  "tdc$imdbId": "tt4154796",
+  "tdc$isMetadataAddedByHarverster": true,
+  "tdc$metadataAddedByHarverster": 1573103340000,
+  "tdc$seoText": null,
+  "tdc$seoTextLocalized": {
+    "da": "<p>Avengers: Endgame er en spændende fortsættelse til forgængeren, Avengers: Infinity War, og vi fortsætter, hvor vi sidst slap de mange superhelte. Universet ligger i ruiner og håber på hjælp fra de mange superhelte, som bliver nødt til at genskabe harmoni på jorden efter den onde Thanos’ skæbnesvangre handlinger. De vilde Marvel-superhelte samler tropperne og giver en ny opgave deres bedste skud - ligegyldigt, hvad det koster. </p>\r\n<h2>Avengers: Endgame</h2>\r\n<p>Vi starter filmen i selskab med Tony Stark, Captain Marvel og alle de andre superhelte, som overvejer at hoppe i deres dragter igen - og de gør det! Både fordi de kan, og fordi de vil kæmpe for dem, som ikke kan. Efter the Infinity War er 50% af jordens levende dyr udslettet på grund af Thanos. Filmen spiller op til en vanvittig kamp mellem de gode og de onde - en gang for alle. Programmet bygges op, og flere af de elskede Marvel-superhelte har også egne følelser i klemme, da de har mistet venner og familie under Thanos’ angreb. Det bliver en kamp for livet, og en kamp i respekt for dem de har mistet, for at genoprette den jord, som vi alle har så kær. Det virker som en uoprettelig sag, og har de virkelig kræfterne til at bekæmpe Thanos efter sidste gang, hvor de som bekendt tabte? Det hele munder ud i ét sidste slag, hvor alle fibre af kroppen, alle tanker og alle kræfter skal kæmpe imod Thanos.</p>\r\n<h2>Vidste du at?</h2>\r\n<h3>Trivia</h3>\r\n<p>Avengers: Endgame er den første film, hvis officielle trailer på YouTube har nået over 1 million likes på mindre end en time. Det kan skyldes, at filmen er finalen på de tre faser, som er en del af det filmiske Marvel Univers.</p>\r\n<h3>Trivia</h3>\r\n<p>Filmen er udelukkende filmet på digitale IMAX kameraer, og det gør den til den første Hollywood film, som kun er taget på IMAX kameraer i en eksklusiv ratio, man kalder 1.9:1.</p>\r\n<h3>Citat</h3>\r\n<p>Tony Stark: En del af rejsen er slutningen.</p>\r\n<h3>Citat</h3>\r\n<p>Natasha Romanoff: Det kommer til at fungere, Steve.\r\nSteve Rogers: Det ved jeg, at det gør. For hvis ikke det gør, ved jeg ikke, hvad jeg skal gøre.</p>\r\n<h2>Se Avengers: Endgame</h2>\r\n<p>Er du vild med superhelte-universet fra Marvel, eller er du bare vild med superhelte generelt? Du må ikke misse Avengers: Endgame, som markerer slutningen af Avengers’ univers på det store lærred. En epoke vil simpelthen være forbi, når du har set den, og der er da også lagt op til et kæmpe stort drama - faktisk større end det var i Infinity War. Se filmen, og lad dig overvælde af den ekstreme kamp, som udfolder sig! Husk, at du kan købe eller leje* filmen allerede nu - det kræver intet abonnement eller bindingsperiode. Du betaler kun for de film, du faktisk vil se. Det synes vi er mest retfærdigt.\r\n \r\n*Bemærk: Grundet rettigheder kan det forekomme, at nogle film i perioder kun kan købes. Dette vil oftest kun være de første par uger efter lancering.</p>",
+    "fi": "<p>Avengers: Endgame on huhtikuussa 2019 maailmanlaajuisesti teattereihin tuleva toiminnallinen elokuva, joka jatkaa jo monien muiden Avengers-elokuvien sarjaa. Elokuvan roolisuorituksista vastaavat jälleen jo aikaisemmista osista tutut näyttelijät, kuten Chris Evans, Robert Downey Jr. ja häikäisevä Scarlett Johansson. Nämä tutut supersankarit seikkailevat myös uudessa Avergersissa, joten ainakin elokuvan faneille myös tämä elokuva on mieleinen. Ohjaajat Anthony Russo ja Joe Russo ovat tehneet jälleen upeaa työtä Avengers: Endgamen parissa. Kokonaisuudessaan tämä elokuva on siis näkemisen arvoinen paketti, josta ei seikkailua tai supersankareita puutu.</p>\r\n<h2>Avengers: Endgame vie katsojan seikkailuun</h2>\r\n<p>Avengers: Endgame on elokuva, jota monet ovat odottaneet jo useiden vuosien ajan. Vihdoin vuonna 2019 toive toteutuu, kun Avengers: Endgamessa jatketaan Avengers: Infinity War -elokuvan viitoittamalla tiellä. Tämä on Marvelin Avengers-saagan neljäs ja samalla viimeinen luku. Avengers: Infinity War päättyi varsin murskaaviin tunnelmiin, joiden jälkeen monikaan supersankareista ei ollut enää jäljellä. Uudessa elokuvassa nähdään kuitenkin vielä sellaisia roolihahmoja kuin Iron Man, Captain America, Black Widow, Hulk ja Hawkeye. Iron Manin roolissa nähdään Robert Downey Jr., Captain American roolissa Chris Evans, Black Widow'n roolissa Scarlett Johansson, Hulkin roolissa Marku Ruffalo ja Hawkeyen roolissa Jeremy Renner. Näiden supersankareiden on toimittava yhdessä ja löydettävä tapa, jolla voisi pysäyttää Josh Brolinin esittämän Thanosin, jolla on avain maailmankaikkeuden tuhoamiseen. Avengers: Endgamessa supersankarit saavat apua yllättävältä taholta, nimittäin Ant-Manilta, jotka esittää Paul Rudd. Viimeisin elokuva tunnettiin voimakkaana ja väkivaltaisena, eikä myöskään tämä osa ole poikkeus. Jokaisen Marvelin elokuvia rakastavan tulee ehdottomasti nähdä tämä elokuva, joka pääättää kaiken. Elokuvassa varsin nautittavaa ovat hyvät roolisuoritukset. Jokainen näyttelijä pistää parastaan ja se näkyy elokuvan lopputuloksissa. Voittaako hyvä, vai saako Thanos tuhottua koko maailmankaikkeuden? Se selviää vain Avengers: Endgamen katsomalla.</p>\r\n<h2>Tiesitkö, että?</h2>\r\n<h3>Trivia</h3>\r\n<p>Elokuvaan haluttiin ottaa mukaan mahdollisimman tuttuja kasvoja, jotta muut Avengers-elokuvat katsoneet pääsisivät nopeasti sisälle myös tähän elokuvaan. Sen vuoksi aikaisemman osan jäljiltä jätettiin henkiin vielä monia supersankareita, joiden haluttiin olevan myös elokuvien päätösosassa.</p>\r\n<h3>Goofs</h3>\r\n<p>Jopa elokuvan traileri haluttiin pitää piilossa mahdollisimman pitkään, eikä elokuvasta ole järjestetty moniakaan kutsuvierasnäytäntöjä. Kaikki tämä perustuu siihen, että Marvel Studios halusi varmistaa, ettei elokuvasta vuoda tietoja ennen sen julkaisua.</p>\r\n<h3>Sitaatit</h3>\r\n<p>Iron Man: Näyttää kuin olisi kulunut jo tuhansia vuosia. Löysin tieni ulos siitä luolasta tullakseni Iron Maniksi. Lupasin, että luvassa ei olisi enää yllätyksiä. Halusin silti jättää kuitenkin tämän yhden yllätyksen vielä viimeiseksi.</p>\r\n<h2>Avengers: Endgame - osta tai vuokraa</h2>\r\n<p>Osta Avengers: Endgame ja lähde katsomaan, saavatko supersankarit pysäytettyä maailmankaikkeuden tuhon. Jäljellä on monia tuttuja kasvoja, kuten Iron Man ja Captain America. Elokuva kuuluu kaikkien Avengers-elokuvien fanien pakollisiin katsottaviin, mutta sen lisäksi elokuvan voivat katsoa myös sellaiset, jotka eivät ole nähneet Avengers-elokuvia aikaisemmin. Jos et ole varma, onko elokuva sinun makuusi, vuokraa Avengers: Endgame ja voit katsoa sitä rajattomasti kahden vuorokauden ajan. Blockbuster antaa mahdollisuuden niin ostamiseen kuin vuokraamiseenkin. Elokuvat ovat katsottavissa monilla eri laitteilla, eikä katsoja joudu maksamaan kuukausimaksuja tai muita ylimääräisiä kuluja. Maksat siis ainoastaan siitä, mitä haluat katsoa. * Käyttäjätilin luominen on helppoa, joten luo itsellesi sellainen jo tänään.</p>\r\n<p>*Huom! Käyttöoikeuksien vuoksi voi joitakin elokuvia joskus vain ostaa. Tämä rajoitus on voimassa yleensä vain muutama viikko elokuvien lanseerauksen jälkeen, mutta joskus voivat oikeudet koskea myös vanhempia elokuvia.</p>",
+    "no": "<p>I Avengers: Endgame, som er den 22. filmen i serien om verdens største superhelter, ligger universet i ruiner etter det som skjedde i Avengers: Infinity War. Men, våre helter har fortsatt ikke gitt opp, og sammen med nye og gamle allierte går de sammen om å bekjempe Thanos og gjenopprette orden i galaksen. I dette storslagne eventyret har de ikke spart på noe, og du kan se frem til en tre timer lang actionorgie der du flere ganger må gispe etter luft.</p>\r\n<h2>Trådene samles i Avengers: Endgame</h2>\r\n<p>The Avengers er tilbake, i en av årets mest etterlengtede oppfølgere! Etter at Thanos knipset med fingrene og fjernet milliarder av mennesker og andre intelligente skapninger, var det ingen som sto igjen uten å ha tapt noe. Flere av våre helter har forsvunnet, og de gjenstående må gå sammen om å prøve å bekjempe den onde herskeren en gang for alle. I Avengers: Endgame møter vi igjen Brie Larson i rollen som Captain Marvel, og Chris Hemsworth er som vanlig strålende i sin rolle som tordenguden Thor. Vi får også et gjensyn med Robert Downey Jr. som Iron Man, Scarlett Johansson som Black Widow, og Chris Evans i rollen som Captain America, for å nevne noen. De har nesten mistet håpet, men klarer å samle styrkene på nytt i et siste fremstøt mot ondskapen. Med et budsjett i milliardklassen kan du forvente spesialeffekter og animasjoner uten sidestykke, og har du fulgt med på de tidligere filmene vet du hva du kan forvente: Voldsom action fra start til slutt, med smarte, morsomme dialoger og mange sjokkerende overraskelser. Gled deg til den siste episoden i vår tids mest fantastiske filmserie!</p>\r\n<h2>Visste du at?</h2>\r\n<h3>Trivia</h3>\r\n<p>Da den første offisielle traileren for filmen ble sluppet, fikk den 289 millioner visninger på YouTube i løpet av de første 24 timene. Ingen annen filmsnutt har blitt sett så mange ganger på så kort tid.</p>\r\n<h3>Trivia</h3>\r\n<p>Filmmusikken er laget av Alan Silvestri, som er en en av Hollywoods mest anerkjente komponister. Tidligere har han komponert musikken til Captain America: The First Avenger (2011), The Avengers (2012) and Avengers: Infinity War (2018).</p>\r\n<h3>Sitater</h3>\r\n<p>Tony Stark: God it seems like a thousand years ago. Fought my way out of that cave, became Iron Man, realized I loved you. I said no more surprises, but I was really hoping to pull off one last one.</p>\r\n<h2>Kos deg med Avengers: Endgame i kveld</h2>\r\n<p>Her hos Blockbuster vil du hele tiden finne de nyeste filmene etterhvert som de kommer ut. Vi har også en svært rik katalog med klassikere du kan se når du selv ønsker. Vi har ingen abonnement eller skjulte avgifter, her betaler du bare for filmene du ser, som du kan velge om du vil kjøpe eller leie *. Lei Avengers: Endgame i kveld om du vil få med deg den nyeste episoden i denne actionfylte serien om verdens mektigste superhelter, eller kjøp Avengers: Endgame, slik at du kan ha den i samlingen din sammen med de andre filmene i serien.</p>\r\n<p>*Merknad: På grunn av rettighetsavtaler kan det forekomme at noen filmer i perioder kun kan kjøpes. Dette vil som oftest kun være de første par uker etter lansering, men kan også forekomme på eldre filmer.</p>",
+    "sv": "<p>Här har vi det senaste släppet från Marvel och filmen har premiär den 26 April 2019 i USA. Filmen är en fortsättning på Avengers: Infinity War, där både Avengers och Guardians of the Galaxy kämpar mot Thanos och hans löjtnanter, som ville förinta hälften av allt liv i universum, något han lyckades med. Avengers: Endgame fortsätter berättelsen därifrån, där planeten har förändrats till en apokalyptisk värld och ett desperat försök att återfå liv till det liv och alla som försvann. Enligt Chris Hemsworth kommer handlingen vara helt olik Infinity War och kommer också innehålla ännu mer chockerande berättelser.</p>\r\n<h2>Avengers: Endgame - kommer time-travel vara lösningen?</h2>\r\n<p>I nuläget är det inte mycket som har avslöjats när det gäller handlingen i Avengers: Endgame, men många rykten säger att time-travel absolut kommer dyka upp under filmens gång och stämmer detta har vi förmodligen mycket gott att se fram emot. Vi kan se att den här teorin faktiskt kan stämma, mycket tack vare specifika scener i förhandsvisningarna som visar hur hjältarna har på sig sina äldre superhjältedräkter, hur får man annars liv i de döda? Att åka tillbaka i tiden känns absolut som en lösning som kan fungera för våra hjältar. Kommer Tony Stark kanske att samarbeta med Shuri för att försöka hitta på ett sätt att åka tillbaka i tiden? Eller är det kanske Nebula som har nyckeln till allt? Eller så kanske Doctor Strange redan har en plan för att besegra Thanos. Det är bara Ant-Man som fortfarande befinner sig i Quantum Realm sedan Thanos väl lyckats förinta stora delar av världen. Under filmen kommer vi i alla fall känna igenom många av våra älskade karaktärer från de andra populära och stora Marvel filmerna som redan har släppts.</p>\r\n<h2>Visste du att?</h2>\r\n<h3>Trivia</h3>\r\n<p>Filmen kommer avsluta den senaste berättelsen om Thanos och ordet endgame hörs inte bara från en kommentar av Dr. Strange i Avengers: Infinity War, utan även i Avengers: Age of Ultron.</p>\r\n<h3>Goofs</h3>\r\n<p>I förhandsvisningarna finns det några goofs som fans har uppmärksammat. Du kan till exempel se Ebony Maw försvinna helt öppet eller en filt som används av Thor som flyttar på sig mellan olika scener.</p>\r\n<h3>Citat</h3>\r\n<p>Tony Stark: Det känns som tusen år sedan jag blev Iron Man, när jag förstod att jag älskade dig. Jag minns att jag sa till mig själv: Inga mer överraskningar men jag hoppades ändå på en sista från dig.</p>\r\n<h2>Avengers: Endgame - kommer de lyckas återfå liv på jorden?</h2>\r\n<p>Vi har många spännande scener att se fram emot, ingen tvekan om den saken. Är du sugen på att se filmen, köp Avengers: Endgame hos oss på Blockbuster så fort den släpps. Här kan du hitta många spännande och actionfyllda filmer. Vill du inte köpa filmen så hyr Avengers: Endgame istället. Det här är en film för alla som älskar Marvels superhjältefilmer och vill du veta vad som kommer ske med världen i den här spännande actionrullen, ta då en titt på vår hemsida där du hittar Avengers: Endgame och många andra underhållande filmer för bra och rimliga priser *.</p>\r\n<p>*OBS! På grund av användarrättigheter kan vissa filmer endast köpas. Denna begränsning brukar vanligen gälla de första veckorna efter en lansering, men kan även tillämpas på äldre filmer.</p>"
+  },
+  "tdc$sortDate": "2019-08-22",
+  "tdc$tvodProductAvailability": null,
+  "tdc$tvodProductAvailabilityLocalized": {
+    "da": "available",
+    "fi": "available",
+    "no": "available",
+    "sv": "available"
+  },
+  "tdc$tvodProductAvailabilityUpdated": 1569773160000,
+  "tdc$urlSlug": null,
+  "tdc$urlSlugLocalized": {
+    "da": "avengers-endgame",
+    "en": "avengers-endgame",
+    "fi": "avengers-endgame",
+    "no": "avengers-endgame",
+    "sv": "avengers-endgame"
+  }
+}

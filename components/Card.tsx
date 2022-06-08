@@ -2,9 +2,12 @@ import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
 import { Stack, NewBox, ELEVATIONS } from "../ui/EveryLayout";
+import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
 
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+function getItemID(string: string) {
+  const tempArray = string.split("/");
+  const id = tempArray[tempArray.length - 1];
+  return id;
 }
 
 interface Props {
@@ -13,7 +16,6 @@ interface Props {
 
 const Card: React.FC<Props> = (props) => {
   const { data } = props;
-  console.log("inside card", data);
   const title = data.title;
   const description =
     data.description === ""
@@ -22,18 +24,18 @@ const Card: React.FC<Props> = (props) => {
   const thumb =
     data.plprogram$thumbnails["orig-396x272"]?.plprogram$url ||
     "/images/molle.jpeg";
-  console.log("thisi s thumb: ", thumb);
+  // console.log("thisi s thumb: ", thumb);
   const releaseYear = data.plprogram$year;
   const type = data.plprogram$programType;
   const genres = data.plprogram$tags
     .filter((item: any) => item.plprogram$scheme === "genre")
     .map((item: any) => item.plprogram$title);
+  const id = getItemID(data.id);
 
-  console.log("genre length: ", genres.length);
   return (
     <Container className="container" padding="0">
       <Stack space="var(--s-4)" backgroundColor="var(--color-purple)">
-        <Link href="/" passHref>
+        <Link href={`/film/${id}`} passHref>
           <NewBox padding="0" as="a" style={{ position: "relative" }}>
             <Image
               src={thumb}
@@ -94,7 +96,6 @@ const OverlayInfo = styled.div`
 `;
 
 const OverlayDescription = styled.div`
-  /* transition: outline-offset 0.15s; */
   bottom: 0;
   color: #cfdce7;
   font-size: 0.85rem;
@@ -116,7 +117,7 @@ const OverlayAction = styled.div`
   border-radius: 5px 5px 0 0;
 `;
 
-const H4 = styled.h4`
+export const H4 = styled.h4`
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   display: -webkit-box;
@@ -126,7 +127,7 @@ const H4 = styled.h4`
   color: var(--color-light-green);
 `;
 
-const Paragraph = styled.p`
+export const Paragraph = styled.p`
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   display: -webkit-box;
