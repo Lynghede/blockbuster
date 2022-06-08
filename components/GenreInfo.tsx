@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import { useRouter } from "next/router";
 /** COMPONENTS */
-import { NewBox, Stack } from "../ui/EveryLayout";
+import { NewBox, Stack, NoPaddingMobileNewBox } from "../ui/EveryLayout";
 /** UTIL */
 import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
 /** SWR */
@@ -35,7 +35,7 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
       {count === 0 ? (
         <></>
       ) : (
-        <NewBox>
+        <NoPaddingMobileNewBox>
           <Link href={`/genre/${genre.toLowerCase()}`} passHref>
             <a>
               <h1>{capitalizeFirstLetter(genre)}</h1>
@@ -54,7 +54,7 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
             </Link>
           )}
           {children}
-        </NewBox>
+        </NoPaddingMobileNewBox>
       )}
     </>
   );
@@ -68,7 +68,7 @@ const Button = styled.button`
   color: var(--color-light-green);
   border: 1px solid var(--color-light-green);
   padding: 0.2rem 1rem;
-  background-color: var(--color-purple)
+  background-color: var(--color-purple);
 
   transition: transform 0.2s;
   :hover {

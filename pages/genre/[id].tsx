@@ -4,7 +4,13 @@ import { ParsedUrlQuery } from "querystring";
 import { useState } from "react";
 /** COMPONENTS */
 import Card from "../../components/Card";
-import { Stack, NewBox, Switcher, Grid } from "../../ui/EveryLayout";
+import {
+  Stack,
+  NewBox,
+  Switcher,
+  Grid,
+  NoPaddingMobileNewBox,
+} from "../../ui/EveryLayout";
 import Genres from "../../lib/Genres";
 import capitalizeFirstLetter from "../../lib/CapitalizeFirstLetter";
 import GenreInfo from "../../components/GenreInfo";
@@ -30,7 +36,6 @@ const Genre: React.FC<IParams> = (props) => {
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading..</div>;
   // const pages = data ? [].concat(...data) : [];
-  console.log(data);
   const pages = data;
   const isLoadingInitialData = !data && !error;
   const isLoadingMore =
@@ -51,21 +56,10 @@ const Genre: React.FC<IParams> = (props) => {
         <GenreInfo genre={genre} type={type} setType={setType}>
           <Grid minimum="25ch">
             {entries.map((entry: any) => (
-              <NewBox key={entry.id}>
+              <NoPaddingMobileNewBox key={entry.id}>
                 <Card data={entry} />
-              </NewBox>
+              </NoPaddingMobileNewBox>
             ))}
-            {/* {entries.map((entry: any) => (
-            <>
-              {console.log("INSIDE RETURN LOOP", entry)}
-              <h4 key={entry.id} style={{ margin: "6px 0" }}>
-                - {entry.guid}
-              </h4>
-            </>
-            // <NewBox key={entry.id}>
-            //   <Card data={entry} />
-            // </NewBox>
-          ))} */}
           </Grid>
           <button
             disabled={isLoadingMore || isReachingEnd}

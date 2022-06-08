@@ -7,6 +7,7 @@ import {
   Cluster,
   NewBox,
   SidebarWrapper,
+  NoPaddingMobileNewBox,
 } from "../ui/EveryLayout";
 import Genres from "../lib/Genres";
 import Profileperson from "../public/svg/profileperson.svg";
@@ -71,10 +72,10 @@ const Header: React.FC = () => {
 
 export default Header;
 
-const Wrapper = styled.div`
+const Wrapper = styled(NoPaddingMobileNewBox)`
   display: flex;
   justify-content: space-between;
-  padding: var(--s0);
+  /* padding: var(--s0); */
   /* position: sticky; */
   top: 0;
   z-index: 1000;
