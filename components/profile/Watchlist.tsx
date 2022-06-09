@@ -13,7 +13,7 @@ import useSWR from "swr";
 
 const Watchlist: React.FC = () => {
   const watchlist = useWatchlist();
-  const list = watchlist.watchlist;
+  const list = watchlist.watchlist || [];
   console.log(list);
 
   return (

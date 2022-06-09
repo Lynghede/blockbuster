@@ -46,7 +46,7 @@ const Card: React.FC<Props> = (props) => {
   }
 
   function isActive() {
-    return watchlist.watchlist.includes(data);
+    return watchlist.watchlist.some((element) => element.id === data.id);
   }
 
   return (

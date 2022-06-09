@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import useLocalStorage from "./useLocalStorage";
+import { useLocalStorageValue } from "@react-hookz/web";
 
 interface Watchlist {}
 
@@ -25,7 +25,8 @@ export const useWatchlist = (): WatchlistContext =>
   useContext(WatchlistContext);
 
 export const WatchlistProvider: React.FC<any> = ({ children }) => {
-  const [watchlist, setWatchlist] = useLocalStorage<string[]>("list", []);
+  const [watchlist, setWatchlist] = useLocalStorageValue<string[]>("list", []);
+  console.log(watchlist);
   const addToList = (item: any) => {
     setWatchlist([...watchlist, item]);
   };
