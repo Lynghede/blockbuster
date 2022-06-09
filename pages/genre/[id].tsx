@@ -10,16 +10,18 @@ import {
   Switcher,
   Grid,
   NoPaddingMobileNewBox,
+  Center,
 } from "../../ui/EveryLayout";
 import Genres from "../../lib/Genres";
 import capitalizeFirstLetter from "../../lib/CapitalizeFirstLetter";
 import GenreInfo from "../../components/GenreInfo";
+import Button from "../../components/Button";
 
 /** SWR */
 import fetcher from "../../lib/Fetcher";
 import useSWRInfinite from "swr/infinite";
 
-const PAGE_SIZE = 6;
+const PAGE_SIZE = 10;
 
 const Genre: React.FC<IParams> = (props) => {
   const genre = props.id;
@@ -35,16 +37,17 @@ const Genre: React.FC<IParams> = (props) => {
 
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading..</div>;
-  // const pages = data ? [].concat(...data) : [];
   const pages = data;
   const isLoadingInitialData = !data && !error;
+  /** Determines whether there is more issues (movies/series) to load */
   const isLoadingMore =
     isLoadingInitialData ||
     (size > 0 && data && typeof data[size - 1] === "undefined");
   const isEmpty = data?.[0]?.length === 0;
   const isReachingEnd =
-    isEmpty || (data && data[data.length - 1]?.length < PAGE_SIZE);
+    isEmpty || (data && data[data.length - 1]?.entries.length < PAGE_SIZE);
 
+  /** Avoid nested arrays */
   const entries = pages.map((page) => page.entries).flat();
 
   return (
@@ -61,16 +64,18 @@ const Genre: React.FC<IParams> = (props) => {
               </NoPaddingMobileNewBox>
             ))}
           </Grid>
-          <button
-            disabled={isLoadingMore || isReachingEnd}
-            onClick={() => setSize(size + 1)}
-          >
-            {isLoadingMore
-              ? "loading..."
-              : isReachingEnd
-              ? "no more issues"
-              : "load more"}
-          </button>
+          <Center style={{ display: "flex", justifyContent: "center" }}>
+            <Button
+              disabled={isLoadingMore || isReachingEnd}
+              onClick={() => setSize(size + 1)}
+            >
+              {isLoadingMore
+                ? "Loading..."
+                : isReachingEnd
+                ? "No more issues"
+                : "Load more"}
+            </Button>
+          </Center>
         </GenreInfo>
       </Stack>
     </>

@@ -5,6 +5,7 @@ import React, { useState } from "react";
 /** COMPONENTS */
 import { NewBox, Stack, NoPaddingMobileNewBox } from "../ui/EveryLayout";
 import { NavItem } from "../components/Header";
+import Button from "./Button";
 /** UTIL */
 import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
 /** SWR */
@@ -87,26 +88,3 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
 };
 
 export default GenreInfo;
-
-interface ButtonProps {
-  active?: boolean;
-}
-
-const Button = styled.button<ButtonProps>`
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: bold;
-  border: 1px solid var(--color-light-green);
-  padding: 0.2rem 1rem;
-  color: ${(p) =>
-    p.active ? "var(--color-light-purple)" : "var(--color-light-green)"};
-  background-color: ${(p) =>
-    p.active ? "var(--color-light-green)" : "var(--color-purple)"};
-
-  transition: 0.5s;
-  :hover {
-    /* transform: scale(1.2); */
-    color: var(--color-light-green);
-    background: var(--color-light-purple);
-  }
-`;
