@@ -81,7 +81,7 @@ const Wrapper = styled(NoPaddingMobileNewBox)`
   z-index: 1000;
 `;
 
-const NavItem = styled.div`
+export const NavItem = styled.div`
   font-size: 1em;
   font-weight: bold;
   color: var(--color-light-green);

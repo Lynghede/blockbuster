@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
+import { useMedia } from "../utlities/useMediaQuery";
 /** Components */
 import { Stack, NewBox } from "../ui/EveryLayout";
 import Card from "./Card";
@@ -19,8 +20,12 @@ interface Props {
 }
 
 const Carousel: React.FC<Props> = (props) => {
+  const isMobile = useMedia<boolean>(["(max-width: 768px)"], [true], false);
+  const isTablet = useMedia<boolean>(["(max-width: 1000px)"], [true], false);
   const genre = props.genre;
   const type = props.type;
+
+  /** Fetch movies/series by category, based on user selection */
   const { data, error } = useSWR<any>(
     `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${genre}&byProgramType=${type}`,
     fetcher
@@ -29,14 +34,21 @@ const Carousel: React.FC<Props> = (props) => {
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading..</div>;
 
-  // console.log(`this is ${genre}: `, data.entries);
   const entries = data.entries;
+
+  /** Used to make the imported swiper library responsive */
+  function slidesPerView() {
+    if (isMobile) return 2;
+    if (isTablet) return 4;
+    return 5;
+  }
+
   return (
     <NewBox>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         onSwiper={(swiper) => console.log("lol")}
-        slidesPerView={4}
+        slidesPerView={slidesPerView()}
         spaceBetween={50}
         navigation
         pagination={true}
