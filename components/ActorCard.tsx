@@ -60,7 +60,6 @@ const HeaderCard = styled.h3<Props>`
   @media screen and (max-width: 800px) {
     font-size: ${(props) =>
       props.fontSizeMobile ? props.fontSizeMobile : "var(--s1)"};
-    /* word-wrap: break-word; */
     overflow-wrap: anywhere;
   }
 `;

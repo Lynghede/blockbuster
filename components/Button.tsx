@@ -17,7 +17,6 @@ const Button = styled.button<ButtonProps>`
 
   transition: 0.5s;
   :hover {
-    /* transform: scale(1.2); */
     color: var(--color-light-green);
     background: var(--color-light-purple);
   }

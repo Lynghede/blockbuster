@@ -1,9 +1,4 @@
-import {
-  Stack,
-  Grid,
-  NoPaddingMobileNewBox,
-  NewBox,
-} from "../../ui/EveryLayout";
+import { Stack, Grid, NoPaddingMobileNewBox } from "../../ui/EveryLayout";
 import { useWatchlist } from "../../utlities/WatchlistContext";
 import Card from "../Card";
 

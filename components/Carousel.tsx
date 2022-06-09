@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import styled from "styled-components";
 import { useMedia } from "../utlities/useMediaQuery";
 /** Components */
 import { Stack, NewBox } from "../ui/EveryLayout";

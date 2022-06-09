@@ -1,9 +1,8 @@
 import Link from "next/link";
-import styled from "styled-components";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 /** COMPONENTS */
-import { NewBox, Stack, NoPaddingMobileNewBox } from "../ui/EveryLayout";
+import { NewBox, NoPaddingMobileNewBox } from "../ui/EveryLayout";
 import { NavItem } from "../components/Header";
 import Button from "./Button";
 /** UTIL */
