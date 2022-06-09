@@ -64,7 +64,7 @@ const GenreInfo: React.FC<Props> = ({ genre, type, setType, children }) => {
               </div>
             </a>
           </Link>
-          <div>
+          <div style={{ marginBottom: "var(--s0)" }}>
             <Button
               active={isActive("movie")}
               value="movie"

@@ -10,28 +10,28 @@ import Card from "../Card";
 const Watchlist: React.FC = () => {
   const watchlist = useWatchlist();
   const list = watchlist.watchlist || [];
-  console.log(list);
+  const count = list.length;
 
   return (
-    <NewBox>
+    <NoPaddingMobileNewBox>
       <Stack>
-        <h1>WATCHLIST</h1>
+        <h1>WATCHLIST ({count})</h1>
         {list.length === 0 ? (
           <p>
             You currently have nothing on your watchlist. Go checkout a category
             and start adding!
           </p>
         ) : (
-          <Grid minimum="25ch">
+          <Grid minimum="20ch" gap="var(--s3)">
             {list.map((entry: any) => (
-              <NoPaddingMobileNewBox key={entry.id}>
+              <div key={entry.id}>
                 <Card data={entry} />
-              </NoPaddingMobileNewBox>
+              </div>
             ))}
           </Grid>
         )}
       </Stack>
-    </NewBox>
+    </NoPaddingMobileNewBox>
   );
 };
 

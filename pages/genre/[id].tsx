@@ -57,14 +57,14 @@ const Genre: React.FC<IParams> = (props) => {
       </Head>
       <Stack>
         <GenreInfo genre={genre} type={type} setType={setType}>
-          <Grid minimum="25ch">
-            {entries.map((entry: any) => (
-              <NoPaddingMobileNewBox key={entry.id}>
-                <Card data={entry} />
-              </NoPaddingMobileNewBox>
-            ))}
-          </Grid>
-          <Center style={{ display: "flex", justifyContent: "center" }}>
+          <Stack>
+            <Grid minimum="20ch" gap="var(--s3)">
+              {entries.map((entry: any) => (
+                <div key={entry.id}>
+                  <Card data={entry} />
+                </div>
+              ))}
+            </Grid>
             <Button
               disabled={isLoadingMore || isReachingEnd}
               onClick={() => setSize(size + 1)}
@@ -75,7 +75,7 @@ const Genre: React.FC<IParams> = (props) => {
                 ? "No more issues"
                 : "Load more"}
             </Button>
-          </Center>
+          </Stack>
         </GenreInfo>
       </Stack>
     </>
