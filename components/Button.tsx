@@ -7,7 +7,7 @@ interface ButtonProps {
 const Button = styled.button<ButtonProps>`
   cursor: pointer;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: thin;
   border: 1px solid var(--color-light-green);
   padding: 0.2rem 1rem;
   color: ${(p) =>

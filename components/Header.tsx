@@ -1,13 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
-import { Cluster, NewBox, SidebarWrapper } from "../ui/EveryLayout";
+import {
+  Cluster,
+  NewBox,
+  SidebarWrapper,
+  NoPaddingMobileNewBox,
+} from "../ui/EveryLayout";
 import Genres from "../lib/Genres";
 import Profileperson from "../public/svg/profileperson.svg";
 /** Navigation menu component */
 const Header: React.FC = () => {
   return (
-    <Wrapper padding="0">
+    <Wrapper>
       <SidebarWrapper firstChildFlexBasis="0">
         <NewBox padding="0" style={{ marginRight: "1rem" }}>
           <Link href="/" passHref>
@@ -65,17 +70,18 @@ const Header: React.FC = () => {
 
 export default Header;
 
-const Wrapper = styled(NewBox)`
+const Wrapper = styled(NoPaddingMobileNewBox)`
   display: flex;
   justify-content: space-between;
   top: 0;
   z-index: 1000;
   margin-bottom: var(--s1);
+  padding-top: 0;
 `;
 
 export const NavItem = styled.div`
   font-size: 1em;
-  font-weight: bold;
+  font-weight: thin;
   color: var(--color-light-green);
   border: 2px solid var(--color-light-green);
   border-radius: 1rem;

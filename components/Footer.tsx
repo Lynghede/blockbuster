@@ -1,14 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
-import { Cluster, NewBox, Switcher } from "../ui/EveryLayout";
+import {
+  Cluster,
+  NewBox,
+  Switcher,
+  NoPaddingMobileNewBox,
+} from "../ui/EveryLayout";
 import Genres from "../lib/Genres";
 import Profileperson from "../public/svg/profileperson.svg";
 import { Paragraph } from "./Paragraph";
 
 const Footer: React.FC = () => {
   return (
-    <Wrapper padding="0">
+    <Wrapper>
       <Switcher>
         <NewBox padding="0" style={{ width: "10%" }}>
           <Link href="/" passHref>
@@ -74,7 +79,7 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-const Wrapper = styled(NewBox)`
+const Wrapper = styled(NoPaddingMobileNewBox)`
   display: flex;
   justify-content: space-between;
   margin-top: var(--s1);

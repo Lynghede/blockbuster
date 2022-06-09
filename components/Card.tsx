@@ -26,6 +26,9 @@ const Card: React.FC<Props> = (props) => {
       : data.description;
   const thumb =
     data.plprogram$thumbnails["orig-396x272"]?.plprogram$url ||
+    data.plprogram$thumbnails["orig-364x250"]?.plprogram$url ||
+    data.plprogram$thumbnails["orig-594x408"]?.plprogram$url ||
+    data.plprogram$thumbnails["orig-3000x2000"]?.plprogram$url ||
     "/images/molle.jpeg";
   const releaseYear = data.plprogram$year;
   const type = data.plprogram$programType;

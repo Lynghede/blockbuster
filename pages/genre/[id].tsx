@@ -23,6 +23,11 @@ import useSWRInfinite from "swr/infinite";
 
 const PAGE_SIZE = 10;
 
+/** The Genre component recivies server side rendered genres.
+ * It creates a page for each genre.
+ * It fetches the movie/series genre based data on the client side.
+ * Using pagination to fetch 10 movies at a time.
+ */
 const Genre: React.FC<IParams> = (props) => {
   const genre = props.id;
   const [type, setType] = useState("movie");

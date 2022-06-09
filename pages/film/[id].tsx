@@ -3,8 +3,6 @@ import Image from "next/image";
 import styled from "styled-components";
 import { useRouter } from "next/router";
 /** COMPONENTS */
-import Genres from "../../lib/Genres";
-import Card, { Paragraph, H4 } from "../../components/Card";
 import ActorCard from "../../components/ActorCard";
 import { Stack, NewBox, Cover, Frame, Grid } from "../../ui/EveryLayout";
 import capitalizeFirstLetter from "../../lib/CapitalizeFirstLetter";
