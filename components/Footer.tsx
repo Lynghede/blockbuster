@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
             <Paragraph color="var(--color-light-green)">
               © 2022, Morten Lynghede, København, Danmark
               <br />
-              Blockbuster Assginment
+              Blockbuster Assignment
             </Paragraph>
           </div>
         </NewBox>
@@ -92,13 +92,13 @@ export const NavItem = styled.div`
   font-size: 1em;
   font-weight: thin;
   color: var(--color-light-green);
-  border: 2px solid var(--color-light-green);
+  border: 1px solid var(--color-light-green);
   border-radius: 1rem;
   padding: 0.2rem 1rem;
 
   transition: transform 0.2s;
   :hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: var(--color-light-purple);
     background: var(--color-light-green);
   }
@@ -107,6 +107,6 @@ export const NavItem = styled.div`
 const NavLogo = styled.div`
   transition: transform 0.2s;
   :hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 `;
