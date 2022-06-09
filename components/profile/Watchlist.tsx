@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import {
   Stack,
   Grid,
@@ -7,9 +6,6 @@ import {
 } from "../../ui/EveryLayout";
 import { useWatchlist } from "../../utlities/WatchlistContext";
 import Card from "../Card";
-/** SWR */
-import fetcher from "../../lib/Fetcher";
-import useSWR from "swr";
 
 const Watchlist: React.FC = () => {
   const watchlist = useWatchlist();
@@ -40,8 +36,3 @@ const Watchlist: React.FC = () => {
 };
 
 export default Watchlist;
-
-const Wrapper = styled.div`
-  display: flex;
-  background-color: purple;
-`;

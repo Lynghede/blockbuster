@@ -14,7 +14,7 @@ import Profileperson from "../public/svg/profileperson.svg";
 
 const Header: React.FC = () => {
   return (
-    <Wrapper>
+    <Wrapper padding="0">
       <SidebarWrapper firstChildFlexBasis="0">
         <NewBox padding="0" style={{ marginRight: "1rem" }}>
           <Link href="/" passHref>
@@ -72,13 +72,14 @@ const Header: React.FC = () => {
 
 export default Header;
 
-const Wrapper = styled(NoPaddingMobileNewBox)`
+const Wrapper = styled(NewBox)`
   display: flex;
   justify-content: space-between;
   /* padding: var(--s0); */
   /* position: sticky; */
   top: 0;
   z-index: 1000;
+  margin-bottom: var(--s1);
 `;
 
 export const NavItem = styled.div`

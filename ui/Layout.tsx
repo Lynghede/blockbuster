@@ -22,14 +22,14 @@ const Layout: React.FC<Props> = ({ children }) => {
 export default Layout;
 
 const Container = styled.div`
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 1280px;
-  padding: 0 var(--s0);
+  padding: var(--s0);
 `;
 
 const Content = styled.div`

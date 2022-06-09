@@ -1,6 +1,7 @@
 import { Stack, NewBox } from "../ui/EveryLayout";
 import styled from "styled-components";
 import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
+import { Paragraph } from "./Paragraph";
 
 interface CardProps {
   header: string;
@@ -62,15 +63,4 @@ const HeaderCard = styled.h3<Props>`
     /* word-wrap: break-word; */
     overflow-wrap: anywhere;
   }
-`;
-
-const Paragraph = styled.p<{
-  size?: string;
-  height?: string;
-  space?: string;
-}>`
-  letter-spacing: ${(p) => (p.space ? p.space : "0.1ch")};
-  line-height: ${(p) => (p.height ? p.height : "")};
-  font-size: ${(p) => (p.size ? p.size : "")};
-  color: var(--color-green);
 `;
