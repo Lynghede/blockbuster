@@ -46,7 +46,7 @@ const Carousel: React.FC<Props> = (props) => {
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         slidesPerView={slidesPerView()}
-        spaceBetween={50}
+        spaceBetween={20}
         navigation
         pagination={true}
       >
