@@ -1,17 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
-import {
-  Stack,
-  Center,
-  Cluster,
-  NewBox,
-  SidebarWrapper,
-  NoPaddingMobileNewBox,
-} from "../ui/EveryLayout";
+import { Cluster, NewBox, SidebarWrapper } from "../ui/EveryLayout";
 import Genres from "../lib/Genres";
 import Profileperson from "../public/svg/profileperson.svg";
-
+/** Navigation menu component */
 const Header: React.FC = () => {
   return (
     <Wrapper padding="0">
@@ -75,8 +68,6 @@ export default Header;
 const Wrapper = styled(NewBox)`
   display: flex;
   justify-content: space-between;
-  /* padding: var(--s0); */
-  /* position: sticky; */
   top: 0;
   z-index: 1000;
   margin-bottom: var(--s1);

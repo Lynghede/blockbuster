@@ -1,12 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
-import {
-  Cluster,
-  NewBox,
-  NoPaddingMobileNewBox,
-  Switcher,
-} from "../ui/EveryLayout";
+import { Cluster, NewBox, Switcher } from "../ui/EveryLayout";
 import Genres from "../lib/Genres";
 import Profileperson from "../public/svg/profileperson.svg";
 import { Paragraph } from "./Paragraph";

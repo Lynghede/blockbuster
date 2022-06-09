@@ -42,7 +42,7 @@ const Carousel: React.FC<Props> = (props) => {
   }
 
   return (
-    <NewBox>
+    <NewBox padding="0">
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         slidesPerView={slidesPerView()}

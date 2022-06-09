@@ -2,8 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styled from "styled-components";
 import { useRouter } from "next/router";
-import { GetStaticProps, GetStaticPaths, GetServerSideProps } from "next";
-import { ParsedUrlQuery } from "querystring";
 /** COMPONENTS */
 import Genres from "../../lib/Genres";
 import Card, { Paragraph, H4 } from "../../components/Card";
@@ -14,7 +12,10 @@ import capitalizeFirstLetter from "../../lib/CapitalizeFirstLetter";
 import fetcher from "../../lib/Fetcher";
 import useSWR from "swr";
 
-const Film: React.FC = (props) => {
+/** The componenet is responsible for fetching a movie/series data based on its ID.
+ * The ID is taken from the URL query
+ */
+const Film: React.FC = () => {
   const router = useRouter();
   const { id } = router.query;
 
@@ -103,48 +104,6 @@ const Film: React.FC = (props) => {
     </>
   );
 };
-
-// interface IParams extends ParsedUrlQuery {
-//   id: string;
-// }
-// export const getStaticPaths: GetStaticPaths = async () => {
-//   const genres: string[] = Genres;
-
-//   const paths = genres.map((id) => {
-//     const lowerId = id.toLowerCase();
-//     return {
-//       params: { id: lowerId },
-//     };
-//   });
-//   return { paths, fallback: false };
-// };
-
-// export const getStaticProps: GetStaticProps = async (context) => {
-//   const { id } = context.params as IParams;
-//   const res = await fetch(
-//     `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${id}&byYear=2017&byProgramType=movie`
-//   );
-//   const film = await res.json();
-
-//   return {
-//     props: {
-//       film,
-//     },
-//   };
-// };
-
-// export const getStaticProps: GetStaticProps = async (context) => {
-//   const { id } = context.params as IParams;
-//   console.log("id", id);
-//   //   const props = fetch(`http://localhost:3000/api/${id}`); // TODO: Remove hardcoded url
-// //   //   console.log("promise:", props);
-//   //   const test = await props;
-//   //   console.log("test", test);
-//   //   const lars = JSON.parse(JSON.stringify(test));
-//   //   console.log("lars:", lars);
-
-//   return { props: id };
-// };
 
 export default Film;
 

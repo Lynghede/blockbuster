@@ -27,7 +27,7 @@ const Genre: React.FC<IParams> = (props) => {
   const genre = props.id;
   const [type, setType] = useState("movie");
 
-  const { data, error, mutate, size, setSize, isValidating } = useSWRInfinite(
+  const { data, error, size, setSize } = useSWRInfinite(
     (index) =>
       `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=${
         1 + index * 10
@@ -99,10 +99,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { id } = context.params as IParams;
-  // const res = await fetch(
-  //   `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&range=1-10&byTags=genre:${id}&byYear=2017&byProgramType=movie`
-  // );
-  // const genre = await res.json();
 
   return {
     props: {

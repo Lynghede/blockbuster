@@ -15,7 +15,7 @@ function getItemID(string: string) {
 interface Props {
   data: any;
 }
-
+/** The Card component recieves data on a single movie/series */
 const Card: React.FC<Props> = (props) => {
   const watchlist = useWatchlist();
   const { data } = props;
@@ -34,17 +34,20 @@ const Card: React.FC<Props> = (props) => {
     .map((item: any) => item.plprogram$title);
   const id = getItemID(data.id);
 
+  /** Adds movies to your watchlist */
   function handleClickAdd(e: React.MouseEvent) {
     e.stopPropagation();
     e.preventDefault();
     watchlist.addToList(data);
   }
+  /** Removes movies from your watchlist */
   function handleClickRemove(e: React.MouseEvent) {
     e.stopPropagation();
     e.preventDefault();
     watchlist.removeFromList(data);
   }
 
+  /** Check if movies or series are active, to highlight the correct buttton */
   function isActive() {
     return watchlist.watchlist.some((element) => element.id === data.id);
   }
