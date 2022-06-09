@@ -177,7 +177,7 @@ const Container = styled(NewBox)`
   overflow: hidden;
   position: relative;
   box-shadow: ${ELEVATIONS.medium};
-  --shadow-color: 0deg 0% 30%;
+  --shadow-color: 295deg 0% 0%;
 
   &:hover ${Overlay} {
     opacity: 1;
