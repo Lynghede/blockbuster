@@ -1,11 +1,12 @@
 import { createContext, useContext, useState } from "react";
+import useLocalStorage from "./useLocalStorage";
 
 interface Watchlist {}
 
 interface WatchlistContext {
-  watchlist: string[];
-  addToList(x: string): any;
-  removeFromList(x: string): any;
+  watchlist: any[];
+  addToList(x: any): any;
+  removeFromList(x: any): any;
 }
 
 const defaultValue: WatchlistContext = {
@@ -24,12 +25,12 @@ export const useWatchlist = (): WatchlistContext =>
   useContext(WatchlistContext);
 
 export const WatchlistProvider: React.FC<any> = ({ children }) => {
-  const [watchlist, setWatchlist] = useState<string[]>([]);
-  const addToList = (id: string) => {
-    setWatchlist([...watchlist, id]);
+  const [watchlist, setWatchlist] = useLocalStorage<string[]>("list", []);
+  const addToList = (item: any) => {
+    setWatchlist([...watchlist, item]);
   };
-  const removeFromList = (id: string) => {
-    setWatchlist(watchlist.filter((itemID) => itemID !== id));
+  const removeFromList = (id: any) => {
+    setWatchlist(watchlist.filter((item) => item !== id));
   };
 
   const value = { watchlist, addToList, removeFromList };

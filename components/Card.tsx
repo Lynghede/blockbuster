@@ -27,7 +27,6 @@ const Card: React.FC<Props> = (props) => {
   const thumb =
     data.plprogram$thumbnails["orig-396x272"]?.plprogram$url ||
     "/images/molle.jpeg";
-  // console.log("thisi s thumb: ", thumb);
   const releaseYear = data.plprogram$year;
   const type = data.plprogram$programType;
   const genres = data.plprogram$tags
@@ -38,16 +37,16 @@ const Card: React.FC<Props> = (props) => {
   function handleClickAdd(e: React.MouseEvent) {
     e.stopPropagation();
     e.preventDefault();
-    watchlist.addToList(id);
+    watchlist.addToList(data);
   }
   function handleClickRemove(e: React.MouseEvent) {
     e.stopPropagation();
     e.preventDefault();
-    watchlist.removeFromList(id);
+    watchlist.removeFromList(data);
   }
 
   function isActive() {
-    return watchlist.watchlist.includes(id);
+    return watchlist.watchlist.includes(data);
   }
 
   return (

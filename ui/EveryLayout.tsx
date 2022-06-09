@@ -259,7 +259,7 @@ export const Grid = styled.div<GridProps>`
   grid-gap: ${(p) => (p.gap ? p.gap : "1rem")};
   @supports (width: min(${(p) => p.minimum}, 100%)) {
     grid-template-columns: repeat(
-      auto-fit,
+      auto-fill,
       minmax(min(${(p) => p.minimum}, 100%), 1fr)
     );
   }
