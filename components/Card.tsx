@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Stack, NewBox, ELEVATIONS } from "../ui/EveryLayout";
 import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
 import { useWatchlist } from "../utlities/WatchlistContext";
+import { RemoveCircle, AddCircle } from "@styled-icons/ionicons-outline/";
 
 function getItemID(string: string) {
   const tempArray = string.split("/");
@@ -44,6 +45,11 @@ const Card: React.FC<Props> = (props) => {
     e.preventDefault();
     watchlist.removeFromList(id);
   }
+
+  function isActive() {
+    return watchlist.watchlist.includes(id);
+  }
+
   return (
     <Container className="container" padding="0">
       <Stack space="var(--s-4)" backgroundColor="var(--color-purple)">
@@ -63,18 +69,15 @@ const Card: React.FC<Props> = (props) => {
                   <OverlayDescription>{description}</OverlayDescription>
                 </span>
                 <OverlayAction>
-                  <div
-                    style={{ zIndex: 100, backgroundColor: "red" }}
+                  <OverlayActionItem
                     onClick={handleClickAdd}
+                    active={isActive()}
                   >
-                    Add
-                  </div>
-                  <div
-                    style={{ zIndex: 100, backgroundColor: "red" }}
-                    onClick={handleClickRemove}
-                  >
-                    remove
-                  </div>
+                    <AddCircle size={30} />
+                  </OverlayActionItem>
+                  <OverlayActionItem onClick={handleClickRemove}>
+                    <RemoveCircle size={30} />
+                  </OverlayActionItem>
                 </OverlayAction>
               </OverlayInfo>
             </Overlay>
@@ -137,6 +140,15 @@ const OverlayAction = styled.div`
   justify-content: space-between;
   padding: 0.25rem 0.75rem 0;
   border-radius: 5px 5px 0 0;
+`;
+
+const OverlayActionItem = styled.div<{ active?: boolean }>`
+  color: ${(p) => (p.active ? "var(--color-green)" : "white")};
+
+  transition: transform 0.2s;
+  :hover {
+    transform: scale(1.2);
+  }
 `;
 
 export const H4 = styled.h4`
