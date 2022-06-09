@@ -57,7 +57,7 @@ const Card: React.FC<Props> = (props) => {
 
   return (
     <Container className="container" padding="0">
-      <Stack space="var(--s-4)" backgroundColor="var(--color-purple)">
+      <Stack space="var(--s-4)" backgroundColor="var(--color-dark-purple)">
         <Link href={`/film/${id}`} passHref>
           <NewBox padding="0" as="a" style={{ position: "relative" }}>
             <Image
@@ -179,7 +179,7 @@ const Container = styled(NewBox)`
   height: 100%;
   width: 100%;
   border-radius: 6px;
-  background: var(--color-green);
+  /* background: var(--color-green); */
   overflow: hidden;
   position: relative;
   box-shadow: ${ELEVATIONS.medium};

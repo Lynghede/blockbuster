@@ -90,7 +90,7 @@ export const NavItem = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: thin;
   color: var(--color-light-green);
   border: 2px solid var(--color-light-green);
   border-radius: 1rem;
