@@ -4,15 +4,18 @@ import type { AppProps } from "next/app";
 import React from "react";
 import { ToastProvider } from "../utlities/toast";
 import Layout from "../ui/Layout";
+import { WatchlistProvider } from "../utlities/WatchlistContext";
 
 import "../styles/globals.css";
 
 function getDefaultLayout(page: React.ReactElement) {
   return (
     <>
-      <ToastProvider>
-        <Layout>{page}</Layout>
-      </ToastProvider>
+      <WatchlistProvider>
+        <ToastProvider>
+          <Layout>{page}</Layout>
+        </ToastProvider>
+      </WatchlistProvider>
     </>
   );
 }

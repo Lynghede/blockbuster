@@ -47,7 +47,6 @@ const Carousel: React.FC<Props> = (props) => {
     <NewBox>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
-        onSwiper={(swiper) => console.log("lol")}
         slidesPerView={slidesPerView()}
         spaceBetween={50}
         navigation

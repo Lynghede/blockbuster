@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Stack, NewBox, ELEVATIONS } from "../ui/EveryLayout";
 import capitalizeFirstLetter from "../lib/CapitalizeFirstLetter";
+import { useWatchlist } from "../utlities/WatchlistContext";
 
 function getItemID(string: string) {
   const tempArray = string.split("/");
@@ -15,6 +16,7 @@ interface Props {
 }
 
 const Card: React.FC<Props> = (props) => {
+  const watchlist = useWatchlist();
   const { data } = props;
   const title = data.title;
   const description =
@@ -32,6 +34,16 @@ const Card: React.FC<Props> = (props) => {
     .map((item: any) => item.plprogram$title);
   const id = getItemID(data.id);
 
+  function handleClickAdd(e: React.MouseEvent) {
+    e.stopPropagation();
+    e.preventDefault();
+    watchlist.addToList(id);
+  }
+  function handleClickRemove(e: React.MouseEvent) {
+    e.stopPropagation();
+    e.preventDefault();
+    watchlist.removeFromList(id);
+  }
   return (
     <Container className="container" padding="0">
       <Stack space="var(--s-4)" backgroundColor="var(--color-purple)">
@@ -51,8 +63,18 @@ const Card: React.FC<Props> = (props) => {
                   <OverlayDescription>{description}</OverlayDescription>
                 </span>
                 <OverlayAction>
-                  <button>Add</button>
-                  <button>remove</button>
+                  <div
+                    style={{ zIndex: 100, backgroundColor: "red" }}
+                    onClick={handleClickAdd}
+                  >
+                    Add
+                  </div>
+                  <div
+                    style={{ zIndex: 100, backgroundColor: "red" }}
+                    onClick={handleClickRemove}
+                  >
+                    remove
+                  </div>
                 </OverlayAction>
               </OverlayInfo>
             </Overlay>
